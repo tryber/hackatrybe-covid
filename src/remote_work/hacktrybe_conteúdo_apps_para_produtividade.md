@@ -18,7 +18,7 @@ Saber "O QUE" e "QUANDO" estudar é parte fundamental para o processo de aprendi
 
 - Primeiramente: Definir o assunto inicial e é essencial que a qualidade do conteúdo seja boa, para isso separamos essas plataformas com excelente conteúdo:
 - *COURSERA*
-> *Execelente plataformas para desenvolver habilidades com cursos e certificados feito pelas melhores universidades e empresas, Excelentíssima fonte de conteúdo.
+> *Excelente plataforma para desenvolver suas habilidades. Ela possui cursos feitos pelas melhores universidades e empresas e ainda por cima te dão um certificado que tem bastante valor! Excelentíssima fonte de conteúdo.
 
 Link: https://pt.coursera.org/
 
