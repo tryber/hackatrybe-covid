@@ -12,7 +12,7 @@ Android: https://play.google.com/store/apps/details?id=droom.sleepIfUCan&hl=pt_B
 IOS:     https://apps.apple.com/us/app/alarmy-wake-up-alarm-clock/id1163786766
 
 
-## Segundo Passo *Organização é fundamental*.
+## Segundo passo: *Organização é fundamental*.
 
 Saber "O QUE" e "QUANDO" estudar é parte fundamental para o processo de aprendizagem.
 
