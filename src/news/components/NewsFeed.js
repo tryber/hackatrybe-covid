@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import context from '../context/context';
+import NewsFeedCard from './NewsFeedCard';
 
 function NewsFeed() {
 
@@ -10,9 +11,7 @@ function NewsFeed() {
 
   return (
     <div>
-      <ul>
-        {data.map((nomeAutores) => <li>{nomeAutores.author}</li>)}
-      </ul>
+      <NewsFeedCard />
     </div>
   )
 }
