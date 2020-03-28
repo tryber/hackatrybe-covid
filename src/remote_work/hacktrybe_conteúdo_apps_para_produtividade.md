@@ -1,6 +1,6 @@
 # Como Melhorar seu Foco e Produtividade
 
-## Primeiro Passo acordar:
+## Primeiro passo: acordar!
 
 Muitos enfrentam problema de pular da cama, separamos o aplicativo ideal para você:
 
