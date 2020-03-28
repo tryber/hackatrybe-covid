@@ -5,7 +5,7 @@ import StatusPage from './status/statusPage'
 function App() {
   return (
     <div className="App">
-      <StatusPage/>
+      <div id='map'><StatusPage/></div>
     </div>
   );
 }
