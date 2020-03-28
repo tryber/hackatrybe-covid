@@ -16,7 +16,7 @@ IOS:     https://apps.apple.com/us/app/alarmy-wake-up-alarm-clock/id1163786766
 
 Saber "O QUE" e "QUANDO" estudar é parte fundamental para o processo de aprendizagem.
 
-- Vamos começar pelo conteúdo a ser estudado. É essencial que você busque por fontes confiáveis que te deem um aprendizado de qualidade. Segue abaixo algumas das boas opções que existem:
+- Vamos começar pelo conteúdo a ser estudado. É essencial que você busque por fontes confiáveis que te proporcionem um aprendizado de qualidade. Segue abaixo algumas das boas opções que existem:
 - *COURSERA*
 > *Excelente plataforma para desenvolver suas habilidades. Ela possui cursos feitos pelas melhores universidades e empresas e ainda por cima te dão um certificado que tem bastante valor! Excelentíssima fonte de conteúdo.
 
