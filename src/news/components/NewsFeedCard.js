@@ -7,11 +7,11 @@ function NewsFeed() {
   return (
     <div>
       {data.map((articles) =>
-        <div>
+        <div key={articles.title}>
           <h3>{articles.title}</h3>
           <img src={articles.urlToImage} alt={articles.title} />
           <p>{articles.description}</p>
-          <a target="blank" href={articles.url}>Saiba Mais</a>
+          <a target="blank" href={articles.url}>Ler Notícia</a>
           <h5>{articles.publishedAt}</h5>
         </div>
       )}

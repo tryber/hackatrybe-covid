@@ -4,8 +4,7 @@ import NewsFeedCard from './NewsFeedCard';
 
 function NewsFeed() {
 
-  const { data, isFetching } = useContext(context);
-  console.log(data);
+  const { isFetching } = useContext(context);
 
   if (isFetching) return "Loading...";
 

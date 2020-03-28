@@ -16,7 +16,6 @@ const NewsFeedProvider = ({ children }) => {
   const context = {
     data,
     isFetching,
-    setData,
   };
 
   return (
