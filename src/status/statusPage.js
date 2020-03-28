@@ -1,11 +1,16 @@
 import React from "react";
-import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
+import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import { data } from "./locationData";
 
 class StatusPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { apiData: "" };
+    this.state = {
+      apiData: "",
+      showingInfoWindow: false,
+      activeMarker: {},
+      selectedPlace: {}
+    };
   }
 
   componentDidMount() {
@@ -21,6 +26,22 @@ class StatusPage extends React.Component {
         })
       );
   }
+
+  onMarkerClick = (props, marker, e) =>
+    this.setState({
+      selectedPlace: props,
+      activeMarker: marker,
+      showingInfoWindow: true,
+    });
+
+  onMapClicked = props => {
+    if (this.state.showingInfoWindow) {
+      this.setState({
+        showingInfoWindow: false,
+        activeMarker: null,
+      });
+    }
+  };
 
   generateDate() {
     const today = new Date();
@@ -51,16 +72,28 @@ class StatusPage extends React.Component {
         zoom={5}
         initialCenter={{ lat: -15.7801, lng: -47.9292 }}
         style={{
-          width: "100%",
-          height: "100%"
+          width: "80%",
+          height: "80%"
         }}
+        onClick={this.onMapClicked}
+        mapTypeControl={false}
       >
         {this.state.apiData.regions.map(region => (
           <Marker
+            onClick={this.onMarkerClick}
             position={this.findGeoLocation(region.name)}
-            title={`Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+            name={`Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+            title={region.name}
           />
         ))}
+        <InfoWindow
+          marker={this.state.activeMarker}
+          visible={this.state.showingInfoWindow}
+        >
+          <div>
+            <h1>{this.state.selectedPlace.name}</h1>
+          </div>
+        </InfoWindow>
       </Map>
     );
   }
