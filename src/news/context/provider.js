@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import NewsFeedContext from './context'
+import GetNewsFeed from '../services/NewsFeedAPI';
 
 const NewsFeedProvider = ({ children }) => {
   const [data, setData] = useState([]);
-  const [isFetching, setIsFetching] = useState(false);
+  const [isFetching, setIsFetching] = useState(true);
 
-  async function GetSubreddit() {
-    setIsFetching(true)
-    await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=API_KEY`)
-      .then((response) => (response.json()))
-      .then(data => setData(data.data.children))
-    setIsFetching(false)
-  };
-  
+  useEffect(() => {
+    GetNewsFeed().then((data) => {
+      setData(data.articles);
+      setIsFetching(false);
+    });
+  }, []);
+
   const context = {
     data,
     isFetching,
-    GetSubreddit,
     setData,
   };
 
