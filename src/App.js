@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import NewsFeedProvider from './news/context/provider';
-import NewsFeed from './news/components/NewsFeed';
+import News from './news/script';
 
 function App() {
   return (
     <div>
-      <NewsFeedProvider>
-        <NewsFeed />
-      </NewsFeedProvider>
+      <News />
     </div>
   );
 }
