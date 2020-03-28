@@ -8,7 +8,7 @@ export const data = [{ estado: "Amazonas", latitude: -3.122299909591675, longitu
 { estado: "Paran\u00e1", latitude: -25.430479049682617, longitude: -49.28451156616211},
 { estado: "Pernambuco", latitude: -8.085169792175293, longitude: -34.91463851928711},
 { estado: "Cear\u00e1", latitude: -3.7833199501037598, longitude: -38.58890151977539},
-{ estado: "Sao pablo", latitude: -23.53396987915039, longitude: -46.628868103027344},
+{ estado: "Sao Pablo", latitude: -23.53396987915039, longitude: -46.628868103027344},
 { estado: "Alagoas", latitude: -9.662039756774902, longitude: -35.73516082763672},
 { estado: "Mato Grosso", latitude: -15.614919662475586, longitude: -56.093231201171875},
 { estado: "Tocantins", latitude: -10.280739784240723, longitude: -48.30535888671875},
