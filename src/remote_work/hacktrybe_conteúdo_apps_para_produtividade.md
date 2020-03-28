@@ -25,7 +25,7 @@ Link: https://pt.coursera.org/
 - *Duolingo*
 
 > Um dos maiores aplicativos para aprender inglês e outros idiomas nos dispositivos Android,
-> além do iPhone e iPad. O aplicativvo possui um acervo de lições que ensinam inglês, espanhol,
+> além do iPhone e iPad. O aplicativo possui um acervo de lições que ensinam inglês, espanhol,
 > alemão e francês, é possível praticar tanto a ortografia quanto treinar a escuta e fala de
 > termos comuns destes idiomas. É totalmente gratuito, mas também permite comprar itens que
 > melhoram sua performance ou aumentam os pontos que ganha ao concretizar as lições ou exercícios de fixação.*
