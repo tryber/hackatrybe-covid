@@ -1,6 +1,7 @@
 import React from "react";
 import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
 import { data } from "./locationData";
+import Circle from '../circle.png'
 
 class StatusPage extends React.Component {
   constructor(props) {
@@ -39,6 +40,10 @@ class StatusPage extends React.Component {
     return { lat: currentName.latitude, lng: currentName.longitude };
   }
 
+  calculeSize(deaths) {
+
+  }
+
   render() {
     console.log(this.state.apiData);
     if (this.state.apiData === "") {
@@ -59,6 +64,8 @@ class StatusPage extends React.Component {
           <Marker
             position={this.findGeoLocation(region.name)}
             title={`Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+            icon= {{url: Circle, scaledSize: {width: 30, height: 30}}}
+            style={{ opacity: 0.5 }} 
           />
         ))}
       </Map>
