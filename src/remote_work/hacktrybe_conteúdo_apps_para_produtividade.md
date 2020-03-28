@@ -2,7 +2,7 @@
 
 ## Primeiro passo: acordar!
 
-Muitas pessoas enfrentam problema na hora de pular da cama, por isso separamos o aplicativo ideal para você:
+Muitas pessoas enfrentam problemas na hora de pular da cama, por isso separamos o aplicativo ideal para você:
 
 - *Alarmy*
 > Alarmy é um despertador para os que demoram para sair da cama. Para que deixe de tocar,
