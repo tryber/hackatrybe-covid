@@ -61,9 +61,10 @@ class StatusPage extends React.Component {
     return { lat: currentName.latitude, lng: currentName.longitude };
   }
 
-  calculeSize(deaths) {
-
-  }
+//   calculeSize(deaths) {
+//     (n mortes / confirmados) * 100 > 5 
+//     (n mortes / confirmados) * 100 > 2
+//   }
 
   render() {
     console.log(this.state.apiData);
@@ -87,9 +88,10 @@ class StatusPage extends React.Component {
           <Marker
             onClick={this.onMarkerClick}
             position={this.findGeoLocation(region.name)}
-            name={`Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
-            icon= {{url: Circle, scaledSize: {width: 30, height: 30}}}
+            name={`${region.name} - Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+            icon= {{url: Circle, scaledSize: {width: Math.log(region.today_confirmed + 1)*15, height: Math.log(region.today_confirmed + 1)*15}}}
             title={region.name}
+            opacity={0.6}
           />
         ))}
         <InfoWindow
