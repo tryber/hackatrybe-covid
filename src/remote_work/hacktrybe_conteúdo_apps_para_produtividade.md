@@ -28,7 +28,7 @@ Link: https://pt.coursera.org/
 > além do iPhone e iPad. O aplicativo possui um acervo de lições que ensinam inglês, espanhol,
 > alemão e francês. É possível praticar tanto a ortografia quanto treinar a escuta e fala de
 > termos comuns destes idiomas. É totalmente gratuito, mas também permite comprar itens que
-> melhoram sua performance ou aumentam os pontos que ganha ao concretizar as lições ou exercícios de fixação.*
+> melhoram sua performance ou aumentam os pontos que ganha ao finalizar as lições ou exercícios de fixação.*
 
 Android: https://play.google.com/store/apps/details?id=com.duolingo&hl=pt_BR
 IOS:https://apps.apple.com/br/app/duolingo-cursos-gratis-ingles/id570060128
