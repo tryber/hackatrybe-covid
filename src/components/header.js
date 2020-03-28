@@ -8,9 +8,9 @@ class Header extends Component {
     return (
       <nav className="header-color">
         <ul>
-          <li><Link to="/">Página Inical </Link></li>
+          <li><Link to="/">Mapa</Link></li>
+          <li><Link to="/news">Notícias</Link></li>
           <li><Link to="/prevention">Prevenção</Link></li>
-          <li><Link to="/mapInfo">Mapa</Link></li>
           <li><Link to="/how-to-study">#Alunos</Link></li>
           <li><Link to="/how-to-teach">#Professores</Link></li>
         </ul>
