@@ -1,6 +1,6 @@
 import React from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import Circle from '../unnamed.png'
+import { data } from './locationData';
 
 class StatusPage extends React.Component {
 
@@ -12,18 +12,30 @@ class StatusPage extends React.Component {
     componentDidMount() {
         const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
         fetch(proxyUrl + `https://api.covid19tracking.narrativa.com/api/${this.generateDate()}/country/brazil`).then(data => data.json()).then(res => 
-        this.setState({apiData: res}))
+        this.setState({apiData: res.dates[this.generateDate()].countries.Brazil}))
     }
 
     generateDate() {
         const today = new Date();
-        const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-        return date;
+        const month = (today.getMonth()+1).toLocaleString(undefined, {minimumIntegerDigits: 2});
+        const date = today.getDate().toLocaleString(undefined, {minimumIntegerDigits: 2});
+        const currentDate = today.getFullYear()+'-'+month+'-'+date;
+        return currentDate;
+    }
+
+    findGeoLocation(name) {
+        const currentName = data.find((each) => each.estado === name);
+        console.log(currentName);
+        // console.log({ lat: currentName.latitude, lng: currentName.longitude})
+        return { lat: currentName.latitude, lng: currentName.longitude};
     }
 
 
     render() {
-        console.log(this.state.apiData)
+        if(this.state.apiData === '') {
+            return <div>Loading...</div>;
+        }
+    
         return (
             <Map
                 google={this.props.google}
@@ -34,9 +46,12 @@ class StatusPage extends React.Component {
                     height: '100%',
                 }}
             >
-                {/* {
-                    this.state.apiData
-                } */}
+                {
+                    this.state.apiData.regions.map((region) =>
+                     <Marker
+                     position={this.findGeoLocation(region.name)}
+                    />)
+                }
                 {/* <Marker
                 title={'The marker`s title will appear as a tooltip.'}
                 name={'SOMA'}
