@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/prevention.css';
 
-class Prevention extends Component {
+class QuizTitle extends Component {
   render() {
     return (
       <div className="container-fluid">
@@ -22,4 +21,4 @@ class Prevention extends Component {
   }
 };
 
-export default Prevention;
+export default QuizTitle;

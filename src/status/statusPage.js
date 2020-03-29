@@ -2,6 +2,7 @@ import React from "react";
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import { data } from "./locationData";
 import Circle from "./circle.png";
+import "../style/statusPage.css"
 
 class StatusPage extends React.Component {
   constructor(props) {
@@ -77,7 +78,7 @@ class StatusPage extends React.Component {
     }
 
     return (
-      <div>
+      <div className="map_wrapper">
         <h1>COVID-19 NO BRASIL</h1>
         <Map
           google={this.props.google}
