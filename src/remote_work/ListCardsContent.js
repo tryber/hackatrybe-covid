@@ -9,15 +9,15 @@ const renderTitlePage = (type) => {
       <h1>Ferramenta</h1>
       <p>Dicas para Ferramenta super show</p>
     </div>
-
   )
+  
   if (type === "Professor") return (
     <div className="header">
       <h1>Professor</h1>
       <p>Dicas para Professor super show</p>
     </div>
-
   )
+  
   if (type === "Estudante") return (
     <div className="header">
       <h1>Estudante</h1>
