@@ -57,7 +57,7 @@ IOS: https://apps.apple.com/us/app/white-noise-lite/id292987597
 
 ## Finalmente
 
-Após ter o assunto, se livrado de distrações e ter tempo dedicado somente para o estudo, vamos organizar o roteiro de estudo e tarefas
+Após ter o assunto, se livrado de distrações e ter tempo dedicado somente para o estudo, vamos organizar o roteiro de estudo e tarefas.
 
 - Agenda + Planner Scheduling
 
