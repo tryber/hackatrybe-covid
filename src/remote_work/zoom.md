@@ -12,7 +12,7 @@ Graças a ferramentas como o Zoom, ampliamos a sensação que estamos de fatos c
 ​
 - *Compartilhamento de tela*
 > Talvez a melhor funcionalidade do Zoom seja o compartilhamento de tela, o que permite não só a aula com o especialista, mas também o que muitos estudantes fazem, que é se juntar para resolver problemas e estudar de forma extremamente fácil, rápida, dinâmica e produtiva. 
-É extremamente comum alunos fazerem "live code review" de seus projetos pessoais ou da Trybe atravéz dessa funcionalidade.
+É extremamente comum estudantes fazerem "live code review" de seus projetos pessoais ou da Trybe através dessa funcionalidade.
 ​
 ## Utilizando o zoom
 ​
