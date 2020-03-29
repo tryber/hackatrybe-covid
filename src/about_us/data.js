@@ -35,7 +35,10 @@ const participantes = {
     "https://www.linkedin.com/in/diego-rafael-26bb7819b",
     "https://media-exp1.licdn.com/dms/image/C4D03AQFIZaMUXvXKmw/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=lGUBJXaxI62ssR5IQ89fnKm0owLojJEdvG8tsVHpr9k"
   ],
-  "Diego Matheus": ["", ""],
+  "Diego Matheus": [
+    "https://www.linkedin.com/in/diego-campos-03900278/",
+    "https://media-exp1.licdn.com/dms/image/C4E03AQGE81_77vkJzg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=wFDJCH7NijsJWO2u8u-mrrAF41HIkqjXmg9PUPAurh0"
+  ],
   "Djonata de Souza": [
     "https://www.linkedin.com/in/djonata-dias/",
     "https://media-exp1.licdn.com/dms/image/C4E03AQFEzSLH3Jiz2g/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=WvOOwjuYEkMBlvEJbJCNM-YDj4XKUWdU3xjFYgTPcVA"
@@ -44,7 +47,10 @@ const participantes = {
     "https://www.linkedin.com/in/filipeyoga/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQHvxBt2lWhKPw/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=ykAf-Sav_lQD9tIRQ1FCeUuI-Y5wdfjCnfP0s7C45ig"
   ],
-  "Gabriel Coruja": ["", ""],
+  "Gabriel Coruja": [
+    "https://www.linkedin.com/in/gabrieldalseco/",
+    "https://media-exp1.licdn.com/dms/image/C4E03AQFk-CdTuxIuug/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=w_Npx5W0e4n3FRP6luCtvciexI7n-hrPxstlD-osz2M"
+  ],
   "Gabriel Lucas": [
     "https://www.linkedin.com/in/gabriel-lucas-201532156/",
     "https://media-exp1.licdn.com/dms/image/C5603AQH9LRHJtxKCrw/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=loKXpp2VVFUbRNry5DFx7maswqBAJqTF6rUnZn6BCz8"
@@ -53,7 +59,10 @@ const participantes = {
     "https://www.linkedin.com/in/gabriel-oliveira-ferreira/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQGVaUhJxNxt9w/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=3QmpdSZiLBQ5mPPV5Gc4fvne-f1MH-tN_l2x1-LNqT4"
   ],
-  "Gregor": ["", ""],
+  "Gregor": [
+    "https://www.linkedin.com/in/gregor-hammerschmitt-2b1762174/",
+    "https://media-exp1.licdn.com/dms/image/C4D03AQH_R084NtMIGg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=KaRLtVXYIc0PoEXbPPP944SmxvA1wJ8VdVMyBvUEa54"
+  ],
   "Gustavo Gonçalves": [
     "https://www.linkedin.com/in/gustavo-gon%C3%A7alves-teodoro-e-silva-6b99a0176/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQE94PkE9LsjlQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=ynqwyOK_SWwml9UyBAhqUK_v53bZv576FxFOffINEMw"
@@ -70,7 +79,10 @@ const participantes = {
     "https://www.linkedin.com/in/henriquerezende/",
     "https://media-exp1.licdn.com/dms/image/C4E03AQEpx5JvhfgKGQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=Ox7AD8SeZLp0IqWplxWWyqseI157WhxCs-4anr1Z3IE"
   ],
-  "Hugo Joaquim": ["", ""],
+  "Hugo Joaquim": [
+    "https://github.com/hugo-netuno",
+    "https://ca.slack-edge.com/TMDDFEPFU-UV8FCB2SJ-10fda20ff3b4-48"
+  ],
   "Johnatas Henrique": [
     "https://www.linkedin.com/in/johnatashenrique/",
     "https://ca.slack-edge.com/TMDDFEPFU-UPPQ6LEKB-df8024b3f24a-512"
@@ -95,7 +107,10 @@ const participantes = {
     "https://www.linkedin.com/in/matheusysd/",
     "https://media-exp1.licdn.com/dms/image/C4E03AQFED5amBLYO8Q/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=-B2zyWC-onb-KEmuI-l6BmSavrvq5wGkqEccbI4stwY"
   ],
-  "Orlando": ["", ""],
+  "Orlando": [
+    "https://www.linkedin.com/mwlite/in/orlando-messias-a5b7644b",
+    "https://ca.slack-edge.com/TMDDFEPFU-UV6A0SGS1-792e976a201c-48"
+  ],
   "Pedro Henrique Tófani": [
     "https://www.linkedin.com/in/pedro-henrique-t%C3%B3fani-ferreira-110954109/",
     "https://media-exp1.licdn.com/dms/image/C5603AQFg4MNW6WWYVA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=Iqefrf3qbYzR9n5BJEXQ3cxOakvQjrzdWdFNCDKDo0c"
@@ -104,7 +119,10 @@ const participantes = {
     "https://www.linkedin.com/in/pedro-parreiras-03a406169/",
     "https://media-exp1.licdn.com/dms/image/C4E03AQGC3RHEnuscFg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=EnPAs6zgIai5nqtZviVdOv-dOxr8GWq3dpq6OWbUlPQ"
   ],
-  "Rafão": ["", ""],
+  "Rafão": [
+    "https://www.linkedin.com/in/rafael-passos-barbosa/",
+    "https://media-exp1.licdn.com/dms/image/C4E03AQFbE1Y7K8mCDg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=Ge-_UGtxTfFWsKY2ND7uNDxJ9WhnDvku6c8K56hpHyE"
+  ],
   "Rangel Paolo": [
     "https://www.linkedin.com/in/rangelpcbomfim/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQG_SN2jnQAKfA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=qxdWTkP71cyc_PD77g-egBiR3JmhMY4oQjruXaDKVKc"
@@ -121,8 +139,14 @@ const participantes = {
     "https://www.linkedin.com/in/rodrigo-militao/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQF6nl2BXefpag/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=PHLHJH0bOAKekj7usl2SCFHUVfI5JCSsJmGup0zGP3I"
   ],
-  "Samuel Augusto": ["", ""],
-  "Victor Felipe": ["", ""],
+  "Samuel Augusto": [
+    "https://www.linkedin.com/in/samuel-augusto/",
+    "https://ca.slack-edge.com/TMDDFEPFU-UUW6N7BCZ-524dc6adeb86-72"
+  ],
+  "Victor Felipe": [
+    "https://www.linkedin.com/in/victorfrsaraiva/",
+    "https://media-exp1.licdn.com/dms/image/C4D03AQEr8M-2rFjX1w/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=EKtsNUz-FioRF9jvK0-s7O223u3XtpfZNcKHp2XgQ6E"
+  ],
   "William Igor Silva": [
     "https://www.linkedin.com/in/william-igor-771302143/",
     "https://media-exp1.licdn.com/dms/image/C4D03AQG0KFMd_Wl0Lw/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=S3KxVBaLFhNqqYeljV781XhNZSrPhzNQ1QTRoRr0EC8"
