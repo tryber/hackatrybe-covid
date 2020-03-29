@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function CardsContent({obj}) {
   return (
-    <div className="Cards-Content">
+    <div className="Card-Type">
       <ReactMarkdown
         source={obj.briefing}
       />
