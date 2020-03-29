@@ -125,7 +125,7 @@ const briefing = `#Como Melhorar seu Foco e Produtividade
 Foi feita uma coletânea de aplicativos e atividades para melhorar o seu foco e consequentemente a sua produtividade `
 
 const obj = {
-  title: 'Hábitos',// title COnteudo
+  title: 'Hábitos',
   type: 'Aluno', // tipo conteudo(Professor, aluno, ferramenta)
   briefing, 
   content,
