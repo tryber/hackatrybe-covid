@@ -6,10 +6,10 @@ Sem dúvidas que as ferramentas visuais são grandes facilitadoras para educador
 
 É um conjunto de ferramentas para construir conhecimento. O registro na plataforma é gratuito e nela você pode criar mapas mentais, _quizzes_ e _slides_. Além disso, o Go Conqr também possui uma biblioteca repleta de recursos criados por outros usuários.
 
-## Draw io - https://app.diagrams.net/
+## Draw.io - https://app.diagrams.net/
 
-Um criador de diagrama totalmente gratuito contruído em torno do _Google Drive_.
+Um criador de diagramas totalmente gratuito construído sobre o _Google Drive_.
 
-## Youtube - https://www.youtube.com/
+## YouTube - https://www.youtube.com/
 
-O tão conhecido _YouTube_ pode ser uma ferramenta muito interessante para ajudar no ensino e entreter os estudantes. Neste local de compartilhamento de vídeos gratuito, você muito provavelmente encontrará algum material que possa auxiliar durante a aula.
+O tão conhecido _YouTube_ pode ser uma ferramenta muito interessante para ajudar no ensino e entreter os estudantes. Neste local de compartilhamento de vídeos gratuito você muito provavelmente encontrará algum material que possa auxiliar durante a aula.

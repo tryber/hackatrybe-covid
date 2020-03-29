@@ -5,11 +5,11 @@ Quais equipamentos utilizar? O que é mais importante para a qualidade do ensino
 
 ## Computador
 
-O seu computador é o centro da sua carreira de professor de cursos online. É o computador que irá te dar a base para criar e implementar um curso com eficiência. Um bom computador não irá travar e vai processar as informações de forma mais rápida, te ajudando nas transmissões e proporcionando aos alunos uma melhor experiência durante o período de aula.
+O seu computador é o centro da sua carreira de professor de cursos online. É o computador que irá te dar a base para criar e implementar um curso com eficiência. Um bom computador não irá travar e vai processar as informações de forma mais rápida, te ajudando nas transmissões e proporcionando aos estudantes uma melhor experiência durante o período de aula.
 
 ## Internet e Wi-Fi
 
-A _Internet_ também é importantíssima pois, com uma _Internet_ ruim sua aula ficará extremamente prejudicada. A coisa que mais pode atrapalhar sua aula é a utilização do _Wi-Fi_.
+A _Internet_ também é importantíssima pois, com uma _Internet_ ruim, sua aula ficará extremamente prejudicada. A coisa que mais pode atrapalhar sua aula é a utilização do _Wi-Fi_.
 
 O _Wi-Fi_ prejudica as aulas porque existe uma oscilação na qualidade do sinal e na velocidade da _Internet_. Coisas externas como paredes, água, plantas e até mesmo equipamentos elétricos como o micro-ondas podem causar instabilidade no sinal, então o melhor é utilizar o bom e velho **cabo de rede**.
 
@@ -17,7 +17,7 @@ Na hora de comprar seu cabo, não há a necessidade de se preocupar com marca ou
 
 Como sabemos, hoje em dia muitas pessoas utilizam notebooks, caso seu notebook não tenha entrada para cabo de rede, existem adaptadores USB que podem **resolver** seu problema de instabilidade. Eles custam de 40 a 70 reais em média e são bem fáceis de encontrar.
 
-Outro ponto, é fazer o teste de velocidade, recomendamos o site _www.speedtest.net_.
+Outro ponto é fazer o teste de velocidade. Recomendamos o site _www.speedtest.net_.
 
 Os seguintes itens são os importantes para saber se sua _Internet_ é suficiente para fazer uma boa aula ao vivo:
 
@@ -27,7 +27,7 @@ Os seguintes itens são os importantes para saber se sua _Internet_ é suficient
 
 * _Ping_ (ou latência, marcado pelo círculo amarelo): Aqui o ideal é um valor abaixo de 30ms, quanto menor, melhor, acima de 30ms você começa a perceber um tempo entre o momento que fala e o tempo que as pessoas escutam sua voz.
 
-Com números muito altos (acima de 200ms) acontecem coisas como por exemplo você falar e depois escutar tudo o que falou, ou então parecer que existe um tempo entre a pessoa falar e o som chegar até seu PC ou celular.
+Com números muito altos (acima de 200ms) acontecem coisas como você falar e depois escutar tudo o que falou, ou então parecer que existe um tempo entre a pessoa falar e o som chegar até seu PC ou celular.
 
 Caso tenha ficado com dúvidas siga para esse [guia sobre Internet](../images-files/internet.pdf).
 
