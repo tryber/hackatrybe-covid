@@ -3,11 +3,7 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import NewsFeed from '../news/components/NewsFeed';
 import { data } from "./locationData";
 import Circle from "./circle.png";
-<<<<<<< HEAD
-import './statusPage.css';
-=======
 import "../style/statusPage.css"
->>>>>>> master
 
 class StatusPage extends React.Component {
   constructor(props) {
@@ -83,20 +79,6 @@ class StatusPage extends React.Component {
     }
 
     return (
-<<<<<<< HEAD
-      <div className="StatusPage">
-        <div>
-          <h1>COVID-19 NO BRASIL</h1>
-        </div>
-        <div className="content-status">
-          <Map
-            google={this.props.google}
-            zoom={5}
-            initialCenter={{ lat: -15.7801, lng: -47.9292 }}
-            onClick={this.onMapClicked}
-            mapTypeControl={false}
-            style={{ width: "70%", height: "78%" }}
-=======
       <div className="map_wrapper">
         <h1>COVID-19 NO BRASIL</h1>
         <Map
@@ -109,19 +91,19 @@ class StatusPage extends React.Component {
         >
           {this.state.globalData.locations.map(location => (
             <Marker
-            onClick={this.onMarkerClick}
-            position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
-            name={`${(location.province)?location.province:location.country } - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
-            icon={{
-              url: Circle,
-              scaledSize: {
-                width: Math.log(location.latest.confirmed + 2) * 10,
-                height: Math.log(location.latest.confirmed + 2) * 10
-              }
-            }}
-            title={`${(location.province)?location.province:location.country }`}
-            opacity={0.6}
-          />
+              onClick={this.onMarkerClick}
+              position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
+              name={`${(location.province) ? location.province : location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
+              icon={{
+                url: Circle,
+                scaledSize: {
+                  width: Math.log(location.latest.confirmed + 2) * 10,
+                  height: Math.log(location.latest.confirmed + 2) * 10
+                }
+              }}
+              title={`${(location.province) ? location.province : location.country}`}
+              opacity={0.6}
+            />
           ))}
           {this.state.apiData.regions.map(region => (
             <Marker
@@ -142,7 +124,6 @@ class StatusPage extends React.Component {
           <InfoWindow
             marker={this.state.activeMarker}
             visible={this.state.showingInfoWindow}
->>>>>>> master
           >
             {this.state.globalData.locations.map(location => (
               <Marker
@@ -160,6 +141,7 @@ class StatusPage extends React.Component {
                 opacity={0.6}
               />
             ))}
+          </InfoWindow>
             {this.state.apiData.regions.map(region => (
               <Marker
                 onClick={this.onMarkerClick}
@@ -187,7 +169,6 @@ class StatusPage extends React.Component {
           </Map>
           <NewsFeed />
         </div>
-      </div>
     );
   }
 }
