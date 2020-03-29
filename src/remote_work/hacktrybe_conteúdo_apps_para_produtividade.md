@@ -38,14 +38,11 @@ Com a ferramenta, você pode bloquear o seu próprio acesso a alguns apps vician
 Android: https://procrastination-punisher.br.aptoide.com/app
 IOS: Não possui.
 
-- *Self Control*
+### Self Control
 
-> *Este programa é exclusivo para usuários de Mac.
-> Ele é um “remédio” um pouco mais radical para quem não consegue cumprir prazos.
-> A proposta é bloquear temporariamente o acesso a sites que sejam uma causa
-> frequente de distração para o usuário. O detalhe é que não há volta.
-> Até o prazo estabelecido expirar, você não conseguirá entrar naquelas páginas
-> nem mesmo se reiniciar a máquina ou deletar o programa. Nada mal hein?*
+Este programa é exclusivo para usuários de Mac.
+
+Ele é um “remédio” um pouco mais radical para quem não consegue cumprir prazos. A proposta é bloquear temporariamente o acesso a sites que sejam uma causa frequente de distração para o usuário. O detalhe é que não há volta. Até o prazo estabelecido expirar, você não conseguirá entrar naquelas páginas, nem mesmo se reiniciar a máquina ou deletar o programa. Nada mal hein?
 
 Android: Não possui.
 IOS: https://www.macupdate.com/app/mac/31289/selfcontroll
