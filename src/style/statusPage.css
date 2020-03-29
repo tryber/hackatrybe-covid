@@ -1,4 +1,5 @@
 .map_wrapper {
   height: -moz-available;          
   height: -webkit-fill-available;
+  height: 950px;
 }
