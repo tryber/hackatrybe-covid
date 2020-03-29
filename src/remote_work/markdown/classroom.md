@@ -2,7 +2,7 @@
 
 ![Logo Google Classroom](images/classroom.png)
 
-O Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. E em um momento de isolamente social como o que estamos agora pode ser um boa opção para instituições de ensino. Caso esteja sendo aplicado no lugar em que estuda aqui vão algumas dicas de como utiliza-lo bem.
+O Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. E em um momento de isolamento social como o que estamos agora pode ser um boa opção para instituições de ensino. Caso esteja sendo aplicado no lugar em que estuda aqui vão algumas dicas de como utiliza-lo bem.
 
 ## Entrando em uma turma
 
