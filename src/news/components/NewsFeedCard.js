@@ -4,7 +4,7 @@ import './NewsFeedCard.css'
 
 function NewsFeedCard() {
   const { data } = useContext(context);
-
+  console.log(data)
   return (
     <div className="NewsFeedCard">
       {data.map((article) =>

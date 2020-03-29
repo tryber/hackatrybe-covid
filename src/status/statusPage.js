@@ -79,51 +79,16 @@ class StatusPage extends React.Component {
     }
 
     return (
-      <div className="map_wrapper">
+      <div className="map_wrapper row">
         <h1>COVID-19 NO BRASIL</h1>
-        <Map
-          google={this.props.google}
-          zoom={5}
-          initialCenter={{ lat: -15.7801, lng: -47.9292 }}
-          onClick={this.onMapClicked}
-          mapTypeControl={false}
-          style={{ width: "75%", height: "80%" }}
-        >
-          {this.state.globalData.locations.map(location => (
-            <Marker
-              onClick={this.onMarkerClick}
-              position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
-              name={`${(location.province) ? location.province : location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
-              icon={{
-                url: Circle,
-                scaledSize: {
-                  width: Math.log(location.latest.confirmed + 2) * 10,
-                  height: Math.log(location.latest.confirmed + 2) * 10
-                }
-              }}
-              title={`${(location.province) ? location.province : location.country}`}
-              opacity={0.6}
-            />
-          ))}
-          {this.state.apiData.regions.map(region => (
-            <Marker
-              onClick={this.onMarkerClick}
-              position={this.findGeoLocation(region.name)}
-              name={`${region.name} - Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
-              icon={{
-                url: Circle,
-                scaledSize: {
-                  width: Math.log(region.today_confirmed + 1) * 15,
-                  height: Math.log(region.today_confirmed + 1) * 15
-                }
-              }}
-              title={region.name}
-              opacity={0.6}
-            />
-          ))}
-          <InfoWindow
-            marker={this.state.activeMarker}
-            visible={this.state.showingInfoWindow}
+        <div className="col-12 col-md-8 col-lg-6">
+          <Map
+            google={this.props.google}
+            zoom={5}
+            initialCenter={{ lat: -15.7801, lng: -47.9292 }}
+            onClick={this.onMapClicked}
+            mapTypeControl={false}
+            style={{ width: "100%", height: "80%" }}
           >
             {this.state.globalData.locations.map(location => (
               <Marker
@@ -141,7 +106,43 @@ class StatusPage extends React.Component {
                 opacity={0.6}
               />
             ))}
-          </InfoWindow>
+            {this.state.apiData.regions.map(region => (
+              <Marker
+                onClick={this.onMarkerClick}
+                position={this.findGeoLocation(region.name)}
+                name={`${region.name} - Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+                icon={{
+                  url: Circle,
+                  scaledSize: {
+                    width: Math.log(region.today_confirmed + 1) * 15,
+                    height: Math.log(region.today_confirmed + 1) * 15
+                  }
+                }}
+                title={region.name}
+                opacity={0.6}
+              />
+            ))}
+            <InfoWindow
+              marker={this.state.activeMarker}
+              visible={this.state.showingInfoWindow}
+            >
+              {this.state.globalData.locations.map(location => (
+                <Marker
+                  onClick={this.onMarkerClick}
+                  position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
+                  name={`${(location.province) ? location.province : location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
+                  icon={{
+                    url: Circle,
+                    scaledSize: {
+                      width: Math.log(location.latest.confirmed + 2) * 10,
+                      height: Math.log(location.latest.confirmed + 2) * 10
+                    }
+                  }}
+                  title={`${(location.province) ? location.province : location.country}`}
+                  opacity={0.6}
+                />
+              ))}
+            </InfoWindow>
             {this.state.apiData.regions.map(region => (
               <Marker
                 onClick={this.onMarkerClick}
@@ -167,8 +168,11 @@ class StatusPage extends React.Component {
               </div>
             </InfoWindow>
           </Map>
+        </div>
+        <div className="col-12 col-md-4 col-lg-6">
           <NewsFeed />
         </div>
+      </div>
     );
   }
 }
