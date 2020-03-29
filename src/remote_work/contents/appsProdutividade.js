@@ -114,7 +114,6 @@ Enquanto o Ortografa! é uma solução para se adequar à regra ortográfica, o 
 
 https://apps.apple.com/br/app/manual-de-redacao-academica/id598610295
 
-
 #### E lembre-se! Ensinar é, com certeza, a forma mais completa de fixação, pois combina várias outras técnicas de estudo, como a de organização/revisão. Ensinar é aprender de novo!
 
 E evite o Burnout! Se dedicar tempo de mais a um único assunto ou problema pode trazer exaustão. Descanse a mente também!
