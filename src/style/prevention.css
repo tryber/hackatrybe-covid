@@ -36,12 +36,8 @@
   div .container-fluid {
     font-family: "Roboto", sans-serif;
   }
-  section {
+  section .about {
     padding: 30px 0;
-  }
-  p {
-    color: black;
-    font-weight: 500;
   }
   .titulo-container {
     display: flex;
