@@ -106,11 +106,6 @@ Enquanto o Ortografa! é uma solução para se adequar à regra ortográfica, o 
 
 https://apps.apple.com/br/app/manual-de-redacao-academica/id598610295
 
-> Para isso separamos uma forma de praticar com desafios
-> É o "HackerRank" a plataforma possui uma infinidade de desafios e problemas para praticar,e o melhor FREE
-
-link: https://www.hackerrank.com/
-
 >Ensinar: Essa com certeza é a forma mais completa de fixação, pois ela combina várias outras técnicas de estudo, como a de organização/revisão, e ensinar é aprender de novo.
 > 
 >Evitar Burnout, se dedicar tempo de mais a um único assunto ou problema*
