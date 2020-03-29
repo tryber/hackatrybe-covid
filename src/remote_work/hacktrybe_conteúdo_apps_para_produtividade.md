@@ -101,13 +101,11 @@ link: https://www.hackerrank.com/
 ##### Descanso: Estar descansado permite a absorção de conteúdos de maneira muito mais "orgânica".
 ##### Revisão: Para contrariar a curva do esquecimento, devemos rever o que foi estudado, isso permite uma melhor fixação do conteúdo no cerébro.
 
-- Manual de Redação Acadêmica
+## Outras sugestões
 
-> Enquanto o Ortografa! é uma solução para se adequar à nova regra ortográfica,
-> o Manual de Redação Acadêmica é um aplicativo para ir além das regras da escrita,
-> mas também da edição, diagramação e formatação de um trabalho acadêmico ou redação mais longa.
-> É perfeito para quem ainda está se acostumando às normas técnicas e precisa saber
-> se o seu trabalho está de acordo com a norma.
+### Manual de Redação Acadêmica
+
+Enquanto o Ortografa! é uma solução para se adequar à regra ortográfica, o Manual de Redação Acadêmica é um aplicativo para ir além das regras da escrita, mas também da edição, diagramação e formatação de um trabalho acadêmico ou redação mais longa. É perfeito para quem ainda está se acostumando às normas técnicas e precisa saber se o seu trabalho está de acordo com a norma.
 
 https://apps.apple.com/br/app/manual-de-redacao-academica/id598610295
 
