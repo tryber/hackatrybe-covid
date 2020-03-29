@@ -6,7 +6,7 @@ function CardsContent({obj}) {
   return (
     <div className="Cards-Content">
       <ReactMarkdown
-        source={obj.mdReduzido}
+        source={obj.briefing}
       />
     <Link class="button-card"to={`/remoteWork/${obj.type}/${obj.title}`}>Acessar</Link>
     </div>
