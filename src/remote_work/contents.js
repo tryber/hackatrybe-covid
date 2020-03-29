@@ -3,6 +3,7 @@ import infraestrutura from './contents/infraestrutura';
 
 const content = [
   habitosAlunos,
+  habitosAlunos,
   infraestrutura,
 ]
 

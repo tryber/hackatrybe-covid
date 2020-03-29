@@ -2,6 +2,7 @@ import React from 'react';
 import SideBar from './SideBar';
 import BlogContent from './BlogContent';
 import data from './contents.js';
+import './BlogPage.css';
 
 function BlogPage(props) {
   const { id } = props.match.params;
@@ -9,14 +10,12 @@ function BlogPage(props) {
   const { title, content, nav } = blog;
   return (
     <div className="Blog-Page">
-      <div>
+      <div className="header">
         <h1>{title}</h1>
       </div>
-      <div>
-        <div>
+      <div className="content-blog">
           <SideBar nav={nav} />
           <BlogContent content={content} />
-        </div>
       </div>
     </div>
   );

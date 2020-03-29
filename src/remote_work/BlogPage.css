@@ -1,0 +1,49 @@
+.Blog-Page {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background: white;
+  width: 100vw;
+}
+
+.Blog-Page > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.Blog-Page > .header > h1 {
+  color: #46A693;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+.Blog-Page > .content-blog {
+  background: gainsboro;
+  display: flex;
+}
+
+.Blog-Page > .content-blog {
+  padding: 50px;
+  background: rgba(245,245,245);
+  display: flex;
+}
+
+.Blog-Page > .content-blog  h1,
+.Blog-Page > .content-blog  h2,
+.Blog-Page > .content-blog  h3,
+.Blog-Page > .content-blog  h4,
+.Blog-Page > .content-blog  h5 {
+  color: #46A693;
+}
+
+.Blog-Page > .content-blog  p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.58;
+  color: black;
+}
