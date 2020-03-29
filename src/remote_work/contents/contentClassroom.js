@@ -32,14 +32,14 @@ O Classroom é uma ferramenta muito poderosa e quando bem utilizada resulta em m
 
 Para acessar o Google Classroom clique [aqui](https://classroom.google.com/).`
 
-const briefing = `## GOOGLE CLASSROOM
+const briefing = `## Google Classroom
 
 O Google Classroom é uma poderosa ferramente de ensino, caso esteja sendo aplicado no lugar em que estuda aqui vão algumas dicas de como utiliza-lo bem.
 `
 
 const obj = {
   title: 'GOOGLE CLASSROOM',
-  type: 'Estudante',
+  type: 'Estudantes',
   briefing, 
   content,
   nav: [

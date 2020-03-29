@@ -3,7 +3,6 @@ import dinamicasInteracao from './contents/contentDinamicasInteracao';
 import feedback from './contents/contentFeedback';
 import ferramentasVisuais from './contents/contentFerramentasVisuais';
 import habitosAlunos from './contents/contentHabitosAlunos';
-import habits from './contents/contentHabits';
 import infraestrutura from './contents/contentInfraestrutura';
 import produtividade from './contents/contentProdutividade';
 import slack from './contents/contentSlack';
@@ -12,15 +11,14 @@ import zoom from './contents/contentZoom';
 
 const content = [
 classroom,
+slido,
+infraestrutura,
 dinamicasInteracao,
 feedback,
 ferramentasVisuais,
 habitosAlunos,
-habits,
-infraestrutura,
 produtividade,
 slack,
-slido,
 zoom,
 ]
 

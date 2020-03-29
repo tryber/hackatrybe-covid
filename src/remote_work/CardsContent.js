@@ -8,7 +8,7 @@ function CardsContent({obj}) {
       <ReactMarkdown
         source={obj.briefing}
       />
-    <Link class="button-card"to={`/remoteWork/${obj.type}/${obj.title}`}>Acessar</Link>
+    <Link class="button-card"to={`/remote-work/${obj.type}/${obj.title}`}>Acessar</Link>
     </div>
   );
 }

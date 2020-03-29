@@ -36,14 +36,14 @@ Não fugir do assunto de um canal postando coisas que não pertencem ao proposit
 No Slack é possivel notificar alguem mencionando seu nome de exibição com um "@". Por ex: "@HugoJr"
 `
 
-const briefing = `## Conhecendo e usando o Slack
+const briefing = `## Slack: comunicação eficiente
 
 O Slack é uma plataforma para comunicação de todo tipo de organização. Muito versátil, possui canais onde discutem-se assuntos acerca de algum tema. Podemos enviar mensagens de texto e voz assim como documentos e videos. Tendo impecável organização, o Slack é um sucesso!
 `
 
 const obj = {
   title: 'Conhecendo e usando o Slack',
-  type: 'Ferramenta',
+  type: 'Ferramentas',
   briefing, 
   content,
   nav: [

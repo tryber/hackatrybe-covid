@@ -6,22 +6,22 @@ import "./ListCardsContent.css";
 const renderTitlePage = (type) => {
   if (type === "Ferramenta") return (
     <div className="header">
-      <h1>Ferramenta</h1>
-      <p>Dicas para Ferramenta super show</p>
+      <h1>Ferramentas</h1>
+      <p>Como configurar as ferramentas de trabalho remoto, boas práticas e mais...</p>
     </div>
   )
   
   if (type === "Professor") return (
     <div className="header">
-      <h1>Professor</h1>
-      <p>Dicas para Professor super show</p>
+      <h1>Professores</h1>
+      <p>Como dar aulas por meio das plataformas digitais, dicas de produtividade e mais...</p>
     </div>
   )
   
   if (type === "Estudante") return (
     <div className="header">
-      <h1>Estudante</h1>
-      <p>Dicas para estudantes super show</p>
+      <h1>Estudantes</h1>
+      <p>Dicas de produtividade, técnicas de estudo e mais...</p>
     </div>
   )
 }

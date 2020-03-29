@@ -15,13 +15,13 @@ Um criador de diagramas totalmente gratuito construído sobre o _Google Drive_.
 O tão conhecido _YouTube_ pode ser uma ferramenta muito interessante para ajudar no ensino e entreter os estudantes. Neste local de compartilhamento de vídeos gratuito você muito provavelmente encontrará algum material que possa auxiliar durante a aula.
 `;
 
-const briefing = `## FERRAMENTAS VISUAIS
+const briefing = `## Ferramentas para visualização digital
 
 Conhecendo as ferramentas que lhe ajudarão a enfrentar o desafio digital`;
 
 const obj = {
   title: 'Ferramentas Visuais',
-  type: 'Professor', 
+  type: 'Professores', 
   briefing, 
   content,
   nav: [

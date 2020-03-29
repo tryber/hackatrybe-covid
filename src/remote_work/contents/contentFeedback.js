@@ -44,13 +44,13 @@ Uma outra forma de professores receberem _feedback_ é através de **pequenas av
 Por fim, é importante que os educadores, ao receberem os _feedbacks_, possam organizá-los e planejar **melhorias para as aulas**. Uma boa prática, neste caso, é não deixar _feedbacks_ se acumularem, tanto quanto possível. É interessante colocar as melhorias em prática de uma aula para a outra. Melhorando assim a experiência de aprendizagem para todos.
 `;
 
-const briefing = `## ESTABELECENDO UMA CULTURA DE FEEDBACK
+const briefing = `## Cultivando a cultura de feedback
 
 Como fazer os estudantes darem feedbacks que te ajudem a melhorar sua aula.`;
 
 const obj = {
   title: 'Falando sobre feedbacks',
-  type: 'Professor', 
+  type: 'Professores', 
   briefing, 
   content,
   nav: [
