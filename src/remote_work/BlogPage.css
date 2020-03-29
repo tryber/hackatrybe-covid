@@ -39,6 +39,7 @@
 .Blog-Page > .content-blog  h4,
 .Blog-Page > .content-blog  h5 {
   color: #46A693;
+  font-weight: 500;
 }
 
 .Blog-Page > .content-blog  h1 {
