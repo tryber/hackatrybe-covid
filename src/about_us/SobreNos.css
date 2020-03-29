@@ -8,7 +8,7 @@
 
 .about-title {
 	color: white;
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .about-p {
@@ -79,22 +79,19 @@
 	background-color: #46A693;
 	display: flex;
 	flex-direction: column;
-	height: 300px;
-	justify-content: center;
+  justify-content: center;
 }
 
-.hacka-logo {
-	color: white;
-	font-size: 120px;
-	margin-left: -280px;
+.trybers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.trybe-img {
+margin: 2em;
 }
 
 @media (max-width: 600px) {
-	.hacka-logo {
-		font-size: 100px;
-		margin-left: -1em;
-  }
-  
 	.tryber {
 		align-items: center;
 		display: flex;
@@ -104,12 +101,6 @@
 		width: 175px;
   }
   
-	.trybers-list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-  }
-  
 	.about-p {
 		font-size: 19px;
 		width: 100%;
@@ -117,10 +108,11 @@
   
 	.about > .background-header {
 		height: 200px;
-  
   }
+
   .trybe-img {
-    width: 95%;
+    width: 98%;
     height: 50%;
+    margin: 2em;
   }
 }
