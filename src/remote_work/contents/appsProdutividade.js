@@ -32,6 +32,7 @@ IOS:https://apps.apple.com/br/app/duolingo-cursos-gratis-ingles/id570060128
 Em seguida: Se livrar de distrações (celulares/redes sociais/tarefas domésticas). 
 
 ### Procrastination Punisher
+
 Uma espécie de versão para celulares do "Self Control".
 
 Com a ferramenta, você pode bloquear o seu próprio acesso a alguns apps viciantes, como Candy Crush ou WhatsApp, por intervalos de tempo determinados, como das 9h às 18h em dias de semana. Detalhe: se decidir usar o app "proibido" mesmo assim, você pagará uma quantia de dinheiro determinada por você mesmo a uma instituição de caridade de sua escolha. Pelo menos a sua mania de procrastinar pode ajudar alguém!
