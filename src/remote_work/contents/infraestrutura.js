@@ -1,4 +1,4 @@
-const content = `# Verificação de conexão e infraestrutura
+const content = `# VERIFICAÇÂO DE CONEXÃO E INFRAESTRUTURA
 
 Nesta seção falaremos sobre algo que normalmente coloca medo nos educadores, que é como dar uma aula com qualidade igual, mesmo estando remotos.
 Quais equipamentos utilizar? O que é mais importante para a qualidade do ensino?
@@ -47,7 +47,7 @@ Preparar o cenário de acordo com o conteúdo do seu curso é essencial para que
 
 Uma boa captação de áudio é **crucial** para um curso online. As pessoas **não** vão **entender** a sua aula se elas não puderem ouvir o que você diz. Por isso a aquisição de um bom microfone é um ótimo investimento! Transmitir a mensagem de forma clara é aquilo que todo professor deseja, por esse motivo invista em um bom microfone, mas caso esteja com um orçamento mais apertado, **é possível** utilizar fones de ouvido de celular e gravar num local livre de ruídos.`
 
-const briefing = `## Verificação de conexão e infraestrutura
+const briefing = `## VERIFICAÇÂO DE CONEXÃO E INFRAESTRUTURA
 
 O seu computador e sua internet são o centro da sua carreira de professor de cursos online.`;
 
@@ -58,7 +58,7 @@ const obj = {
   content,
   nav: [
     { link: 'Computador', href: 'computador-id' },
-    { link: 'internet-wifi-id', href: 'Internet e Wi-Fi' },
+    { link: 'Internet e Wi-Fi', href: 'internet-wifi-id' },
     { link: 'Camera', href: 'camera-id' },
     { link: 'Iluminação e fundo', href: 'iluminacao-id' },
     { link: 'Microfone', href: 'microfone-id' },

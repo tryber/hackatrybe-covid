@@ -13,10 +13,8 @@ function SideBar(props) {
         <nav className="Side-Bar">
           <ul>
             {nav.map(({ link, href }) => (
-              <li className="Side-Bar-list">
-                <a href={`#${href}`}>{link}</a>
-              </li>
-            ))}
+              <li className="Side-Bar-list"><a href={`#${href}`}>{link}</a></li>))
+            }
           </ul>
         </nav>
       </MediaQuery>
