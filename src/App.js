@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Study from './pages/Study';
 import Teach from './pages/Teach';
 import News from './pages/News';
-import Prevention from './pages/Prevention';
+import PreventionPage from './pages/Prevention';
 import Header from './components/header';
 import './App.css';
 import StatusPage from './status/statusPage'
@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/news" component={News} />
         <Route exact path="/how-to-teach" component={Teach} />
         <Route exact path="/how-to-study" component={Study} />
-        <Route path="/prevention" component={Prevention} />
+        <Route path="/prevention" component={PreventionPage} />
         <Route path="/about-us" component={AboutUs} />
       </Switch>
     </Router>
