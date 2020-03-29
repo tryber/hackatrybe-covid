@@ -5,22 +5,22 @@ import "./ListCardsContent.css";
 
 const renderTitlePage = (type) => {
   if (type === "Ferramenta") return (
-    <div>
-      <h2>Ferramenta</h2>
+    <div className="header">
+      <h1>Ferramenta</h1>
       <p>Dicas para Ferramenta super show</p>
     </div>
 
   )
   if (type === "Professor") return (
-    <div>
-      <h2>Professor</h2>
+    <div className="header">
+      <h1>Professor</h1>
       <p>Dicas para Professor super show</p>
     </div>
 
   )
   if (type === "Estudante") return (
-    <div>
-      <h2>Estudante</h2>
+    <div className="header">
+      <h1>Estudante</h1>
       <p>Dicas para estudantes super show</p>
     </div>
   )

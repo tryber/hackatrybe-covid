@@ -38,7 +38,7 @@
   background: #46A693;
 }
 
-.List-Cards-Content > .content >.collection-card-type {
+.List-Cards-Content > .content > .collection-card-type {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
