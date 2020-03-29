@@ -4,7 +4,7 @@ const briefing = `# ADICIONE AQUI A DESCRIÇÃO E TITLE DO CONTEUDO, h1, p `
 
 const obj = {
   title: 'Hábitos',// title COnteudo
-  type: 'Estudante', // tipo conteudo(Professor, aluno, ferramenta)
+  type: 'Estudante',
   briefing, 
   content,
   nav: [
