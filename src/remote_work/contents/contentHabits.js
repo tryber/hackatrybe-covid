@@ -52,9 +52,9 @@ const obj = {
   briefing, 
   content,
   nav: [
-    { link: 'Gerencie bem o seu tempo', href: 'gerenciar-tempo-id' }, // id para navegação
+    { link: 'Gerencie bem o seu tempo', href: 'gerenciar-tempo-id' },
     { link: 'Conscientização da Família', href: 'conscientizacao-familia-id'},
-    { link: 'Ambientação local', href: 'ambiente-local-id' }, // id para navegação
+    { link: 'Ambientação local', href: 'ambiente-local-id' }, 
     { link: 'Mantenha o foco', href: 'mantenha-foco-id' },
     { link: 'Os cuidados de cada dia', href: 'cuidados-id' },
     { link: 'Recompense-se', href: 'recompensa-id' }
