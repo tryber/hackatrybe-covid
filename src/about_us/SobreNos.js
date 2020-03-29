@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import NomesLista from './nomes';
 import './SobreNos.css';
 
@@ -15,9 +15,9 @@ function AboutUs() {
       <div className="background-body">
       <div className="background-1">
       <p className="about-title">Quem somos nós</p>
-      <p className="about-p">No dia 1º de fevereiro, nos foi dado um desafio: o que pode ser feito, em apenas um final de semana, com nossas habilidades e tempo, para mitigar os impactos das chuvas que recentemente pôs em risco a vida de muitos e foram fatais para outros.
-Há apenas poucos meses, começamos a estudar programação: com aprendizagem ativa, esforço diário, organização e colaboração. Foi assim que saímos da ideia de um desafio, e transformamos esse desconforto em material: um centro de informações para que qualquer pessoa utilizasse como bússola e pudesse se orientar em meio à confusão.
-Graças à nossa união e à orientação da equipe da Trybe, conseguimos transfomar essa ideia em realidade.</p>
+      <p className="about-p">Ante a pandemia do Sars-CoV2, ou novo corona vírus, um grupo de entusiastas da tecnologia empunhou seus teclados em união para auxiliar a população
+       de várias maneiras possíveis, buscando fornecer informações atualizadas e seguras, dicas de segurança e saúde, além de instruções de como se adaptar ao estudo remoto.
+        Graças à nossa união e ao apoio da equipe da Trybe, conseguimos tornar essa ideia realidade.</p>
       <p className="about-p">Somos Trybers!</p>
       </div>
       <div className="background-2">
