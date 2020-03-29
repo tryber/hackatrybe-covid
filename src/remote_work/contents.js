@@ -1,8 +1,8 @@
-import habitosAlunos from './contents/contentHabitosAlunos';
 import infraestrutura from './contents/infraestrutura';
+import contentHabits from './contents/contentHabits';
 
 const content = [
-  habitosAlunos,
+  contentHabits,
   infraestrutura,
 ]
 
