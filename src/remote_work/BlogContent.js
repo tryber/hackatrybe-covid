@@ -5,7 +5,7 @@ function BlogPost(props) {
   const { content } = props
 
   return (
-    <article className="App">
+    <article className="Blog-Post">
       <ReactMarkdown
         source={content}
         escapeHtml={false}

@@ -8,7 +8,7 @@ function BlogPage(props) {
   const blog = data.find(({ title }) => id === title)
   const { title, content, nav } = blog;
   return (
-    <div>
+    <div className="Blog-Page">
       <div>
         <h1>{title}</h1>
       </div>
