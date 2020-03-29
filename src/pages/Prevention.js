@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 
-class Prevention extends Component {
+class PreventionPage extends Component {
 
   render() {
-    return <p>Prevention</p>;
+    return (
+      <div>
+        <Prevention />
+        <Quiz />
+      </div>
+    )
   }
 }
 
-export default Prevention;
+export default PreventionPage;
