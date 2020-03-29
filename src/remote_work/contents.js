@@ -1,7 +1,10 @@
-import habitsAluno from './contents/contentHabitsAluno';
+import habitosAlunos from './contents/contentHabitosAlunos';
+import gerencie from './contents/Gerencie';
+import infraestrutura from './contents/infraestrutura';
 
 const content = [
-  habitsAluno,
+  habitosAlunos,
+  infraestrutura,
 ]
 
 export default content;

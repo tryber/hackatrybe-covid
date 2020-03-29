@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
 import ListCardsContent from './remote_work/ListCardsContent';
 import PageRemoteWork from './remote_work/PageRemoteWork';
 import BlogPage from './remote_work/BlogPage';
 
-function App(props) { 
+function App() { 
   return (
     <Router>
       <Switch>

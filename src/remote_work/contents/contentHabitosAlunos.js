@@ -2,7 +2,7 @@ const content = `# HÁBITOS PARA UM BOM DESEMPENHO REMOTO
 
 Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida. Para estudar e trabalhar em casa é preciso mais do que força de vontade, sendo necessário disciplina e organização, algumas das etapas que abordaremos adiante.
 
-## Gerencie bem o seu tempo
+<h2 id="gerencie-bem-id">Gerencie bem o seu tempo </h2>
 
 A organização do tempo é crucial para tudo que intentamos fazer. Separar momentos de trabalho e estudo dentro de casa é um dos principais pontos para conseguir desenvolver bem suas tarefas. Antes de tudo precisas-se definir os momentos de estudo.
 
@@ -49,7 +49,7 @@ const obj = {
   briefing,
   content,
   nav: [
-    { link: 'Ambientação local', href: 'ambiente-local-id' },
+    { link: 'Gerencie bem o seu tempo', href: 'gerencie-bem-id' },
     { link: 'Ambientação local', href: 'ambiente-local-id' }
   ],
 }
