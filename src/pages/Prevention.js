@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import Prevention from '../components/prevention'
+import Quiz from '../components/quiz'
+import QuizTitle from '../components/quizTitle'
 
-class Prevention extends Component {
+class PreventionPage extends Component {
 
   render() {
-    return <p>Prevention</p>;
+    return (
+      <div>
+        <Prevention />
+        <QuizTitle />
+        <Quiz />
+      </div>
+    )
   }
 }
 
-export default Prevention;
+export default PreventionPage;
