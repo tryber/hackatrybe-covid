@@ -18,6 +18,7 @@ Há também uma funcionalidade de pesquisas. O professor ou responsável pelo ch
 `
 
 const briefing = `# A ferramenta Sli.do
+
   Ferramentas, tutorial e suas funcionalidades. `
 
 const obj = {
