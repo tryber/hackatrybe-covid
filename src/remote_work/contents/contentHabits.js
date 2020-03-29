@@ -47,8 +47,8 @@ Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu est
 `
 
 const obj = {
-  title: 'HÁBITOS PARA UM BOM DESEMPENHO REMOTO',// title COnteudo
-  type: 'Estudante', // tipo conteudo(Professor, estudante, ferramenta)
+  title: 'HÁBITOS PARA UM BOM DESEMPENHO REMOTO',
+  type: 'Estudante',
   briefing, 
   content,
   nav: [
