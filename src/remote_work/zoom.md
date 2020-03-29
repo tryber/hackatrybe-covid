@@ -19,7 +19,7 @@ Graças a ferramentas como o Zoom, ampliamos a sensação que estamos de fatos c
 Agora que você já sabe algumas funcionalidades do Zoom, veremos como utilizá-lo corretamente:
 - Faça o cadastro na plataforma (https://zoom.us/pt-pt/freesignup.html),
 - Vá na seção **"Perfil"** e personalize o seu nome da seguinte forma **"Nome Sobrenome - Turma X"**.
-- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a **"alterar foto"**.
+- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a clicando em **"alterar foto"**.
 
 ## Download
 
