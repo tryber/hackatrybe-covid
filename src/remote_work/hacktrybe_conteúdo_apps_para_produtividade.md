@@ -66,10 +66,11 @@ Após ter o assunto, se livrado de distrações e ter tempo dedicado somente par
 Android: https://play.google.com/store/apps/details?id=com.joshy21.vera.free.calendarplus&hl=pt_BR
 IOS: Não possui.
 
-- *Google Agenda*
-> *Você pode ter todas as suas agendas em um só lugar com o App do Google Agenda, pois ele é compatível com todas as agendas dos smartphones. Você pode sincronizar com os eventos da sua conta de e-mail do Gmail.
-> É possível programar eventos, datas de provas, locais de exames. Pode também criar um cronograma de estudos e programar lembretes para te notificar de quando estudar ou revisar um tema.
-> Há ainda a possibilidade de adicionar metas de estudo, como “escrever redação 1 vez por semana”, e o Google Agenda programará um horário para essa tarefa automaticamente.
+### Google Agenda
+
+Você pode ter todas as suas agendas em um só lugar com o App do Google Agenda, pois ele é compatível com todas as agendas dos smartphones. Você pode sincronizar com os eventos da sua conta de e-mail do Gmail.
+
+É possível programar eventos, datas de provas, locais de exames. Pode também criar um cronograma de estudos e programar lembretes para te notificar de quando estudar ou revisar um tema. Há ainda a possibilidade de adicionar metas de estudo, como “escrever redação 1 vez por semana”, e o Google Agenda programará um horário para essa tarefa automaticamente.
 
 PC: https://www.google.com/intl/pt-BR/calendar/about/
 Android: https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=pt_BR
