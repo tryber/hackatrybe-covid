@@ -7,7 +7,6 @@ function BlogPage(props) {
   const { id } = props.match.params;
   const blog = data.find(({ title }) => id === title)
   const { title, content, nav} = blog;
-  console.log(blog)
   return (
     <div>
       <div>
