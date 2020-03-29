@@ -4,7 +4,7 @@ import '../style/header.css';
 
 const Header = () => (
   <nav className="header-color">
-    <ul>
+    <ul className="header-flex-list-nav">
       <li><Link to="/">Mapa</Link></li>
       <li><Link to="/news">Notícias</Link></li>
       <li><Link to="/prevention">Prevenção</Link></li>
