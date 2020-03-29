@@ -22,13 +22,13 @@ const briefing = `# A ferramenta Sli.do
   Ferramentas, tutorial e suas funcionalidades. `
 
 const obj = {
-  title: 'A ferramenta Sli.do',// title COnteudo
-  type: 'Estudante', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'A ferramenta Sli.do',
+  type: 'Estudante',
   briefing, 
   content,
   nav: [
-    { link: 'O que é Sli.do', href: 'content-slido-id' }, // id para navegação
-    { link: 'Como ultilizar O Sli.do', href: 'tutorial-slido-id' } // id para navegação
+    { link: 'O que é Sli.do', href: 'content-slido-id' }, 
+    { link: 'Como ultilizar O Sli.do', href: 'tutorial-slido-id' }
   ],
 }
 
