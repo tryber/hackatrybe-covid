@@ -28,9 +28,9 @@
 }
 
 .Blog-Page > .content-blog {
-  padding: 50px;
   background: rgba(245,245,245);
   display: flex;
+  flex-grow: 1;
 }
 
 .Blog-Page > .content-blog  h1,

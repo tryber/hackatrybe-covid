@@ -2,9 +2,48 @@
   display: flex;
   align-items: center;
   text-align: center;
-  top: 20vh;
+  top: 100px;
+  position: -webkit-sticky;
   position: sticky;
   height: 60vh;
   font-family: "Roboto", sans-serif;
   color: #46A693;
+  margin-block-start: 0.83em;
+  width: 20%;
+  padding-top: 80px;
 };
+
+.Side-Bar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.Side-Bar-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.Side-Bar-list a {
+  color: #767676;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.Side-Bar-list a:hover {
+  border-left: 1px solid black;
+  color: #46A693;
+  font-size: 1.25em;
+  padding-left: 19px;
+  text-decoration: none;
+}
+
+.Blog-Post a {
+  color: #767676;
+  text-decoration: none;
+}
+
+.Blog-Post a:hover {
+  color: #46A693;
+  text-decoration: none;
+}
