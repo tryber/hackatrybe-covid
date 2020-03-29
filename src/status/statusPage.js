@@ -8,7 +8,6 @@ class StatusPage extends React.Component {
     super(props);
     this.state = {
       apiData: "",
-      globalData: "",
       showingInfoWindow: false,
       activeMarker: {},
       selectedPlace: {}
@@ -25,15 +24,6 @@ class StatusPage extends React.Component {
       .then(res =>
         this.setState({
           apiData: res.dates[this.generateDate()].countries.Brazil
-        })
-      );
-    fetch(
-      proxyUrl + `https://coronavirus-tracker-api.herokuapp.com/v2/locations`
-    )
-      .then(data => data.json())
-      .then(res =>
-        this.setState({
-          globalData: res
         })
       );
   }
@@ -72,7 +62,7 @@ class StatusPage extends React.Component {
   }
 
   render() {
-    if (this.state.apiData === "" || this.state.globalData === "") {
+    if (this.state.apiData === "") {
       return <div>Loading...</div>;
     }
 
@@ -86,24 +76,7 @@ class StatusPage extends React.Component {
           onClick={this.onMapClicked}
           mapTypeControl={false}
           style={{ width: "100%", height: "80%" }}
-        > 
-        {/* {console.log(this.state.globalData.locations)} */}
-          {this.state.globalData.locations.map(location => (
-            <Marker
-            // onClick={this.onMarkerClick}
-            position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
-            name={`${location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
-            icon={{
-              url: Circle,
-              scaledSize: {
-                width: Math.log(location.latest.confirmed + 1) * 10,
-                height: Math.log(location.latest.confirmed + 1) * 10
-              }
-            }}
-            title={location.country}
-            opacity={0.6}
-          />
-          ))}
+        >
           {this.state.apiData.regions.map(region => (
             <Marker
               onClick={this.onMarkerClick}
