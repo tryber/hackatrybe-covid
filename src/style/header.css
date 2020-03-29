@@ -1,0 +1,22 @@
+.header-color ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.header-color {
+  background-color: #46A693;
+  border-radius: 0px 0px 20px 20px;
+  height: 3em;
+}
+
+.header-color li {
+  list-style: none;
+}
+
+.header-color a {
+  text-decoration: none;
+  color: white;
+}
