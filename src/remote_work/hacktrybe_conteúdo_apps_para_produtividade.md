@@ -101,7 +101,7 @@ IOS: https://apps.apple.com/br/app/pocket/id309601447
 
 > Exercicio prévio: Alguns hormônios são liberados após exercícios, dando sensação de bem estar e disposição, tornando mais fácil se dedicar aos estudos.
 > Para isso separamos uma forma de praticar com desafios
-> É o "HackerRank" a plataforma possui uma infinidade de desafios e problemas para praticar,e o melhor FREE
+> É o "HackerRank" a plataforma possui uma infinidade de desafios e problemas para praticar, e o melhor, é gratuito!
 
 link: https://www.hackerrank.com/
 
