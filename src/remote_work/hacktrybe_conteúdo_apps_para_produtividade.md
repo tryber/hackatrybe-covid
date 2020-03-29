@@ -4,9 +4,8 @@
 
 Muitas pessoas enfrentam problemas na hora de pular da cama, por isso separamos o aplicativo ideal para você:
 
-- *Alarmy*
-> Alarmy é um despertador para os que demoram para sair da cama. Para que deixe de tocar,
-> este aplicativo te obriga a levantar e fazer uma foto de algum quarto da casa ou resolver um problema matemático.
+### Alarmy
+Alarmy é um despertador para os que demoram para sair da cama. Para que deixe de tocar, este aplicativo te obriga a levantar e fazer uma foto de algum quarto da casa ou resolver um problema matemático.
 
 Android: https://play.google.com/store/apps/details?id=droom.sleepIfUCan&hl=pt_BR
 IOS:     https://apps.apple.com/us/app/alarmy-wake-up-alarm-clock/id1163786766
