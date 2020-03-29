@@ -13,6 +13,7 @@ class Header extends Component {
           <li><Link to="/prevention">Prevenção</Link></li>
           <li><Link to="/how-to-study">#Alunos</Link></li>
           <li><Link to="/how-to-teach">#Professores</Link></li>
+          <li><Link to="/about-us">Sobre nós</Link></li>
         </ul>
       </nav>
     )
