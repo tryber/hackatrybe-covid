@@ -59,9 +59,9 @@ IOS: https://apps.apple.com/us/app/white-noise-lite/id292987597
 
 Após ter o assunto, se livrado de distrações e ter tempo dedicado somente para o estudo, vamos organizar o roteiro de estudo e tarefas.
 
-- Agenda + Planner Scheduling
+### Agenda + Planner Scheduling
 
-> É  um aplicativo para programar eventos no calendário disponível para dispositivo Android. Ele funciona como uma agenda e sincroniza os eventos importantes da sua rotina de estudante e outros eventos da sua vida. Você consegue planejar eventos recorrentes, receber notificações em pop-up, som ou vibração, e também visualizar as tarefas do seu dia, semana, mês e ano.
+É  um aplicativo para programar eventos no calendário disponível para dispositivo Android. Ele funciona como uma agenda e sincroniza os eventos importantes da sua rotina de estudante e outros eventos da sua vida. Você consegue planejar eventos recorrentes, receber notificações em pop-up, som ou vibração, e também visualizar as tarefas do seu dia, semana, mês e ano.
 
 Android: https://play.google.com/store/apps/details?id=com.joshy21.vera.free.calendarplus&hl=pt_BR
 IOS: Não possui.
