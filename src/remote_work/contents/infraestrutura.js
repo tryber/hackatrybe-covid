@@ -47,9 +47,9 @@ Preparar o cenário de acordo com o conteúdo do seu curso é essencial para que
 
 Uma boa captação de áudio é **crucial** para um curso online. As pessoas **não** vão **entender** a sua aula se elas não puderem ouvir o que você diz. Por isso a aquisição de um bom microfone é um ótimo investimento! Transmitir a mensagem de forma clara é aquilo que todo professor deseja, por esse motivo invista em um bom microfone, mas caso esteja com um orçamento mais apertado, **é possível** utilizar fones de ouvido de celular e gravar num local livre de ruídos.`
 
-const briefing = `## GERENCIE
+const briefing = `## Verificação de conexão e infraestrutura
 
-Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida.`
+O seu computador e sua internet são o centro da sua carreira de professor de cursos online.`;
 
 const obj = {
   title: 'Infraestrutura',

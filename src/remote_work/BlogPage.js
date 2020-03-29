@@ -6,7 +6,7 @@ import data from './contents.js';
 function BlogPage(props) {
   const { id } = props.match.params;
   const blog = data.find(({ title }) => id === title)
-  const { title, content, nav} = blog;
+  const { title, content, nav } = blog;
   return (
     <div>
       <div>
@@ -14,8 +14,8 @@ function BlogPage(props) {
       </div>
       <div>
         <div>
-          <SideBar nav={nav}/>
-          <BlogContent content={content}/>
+          <SideBar nav={nav} />
+          <BlogContent content={content} />
         </div>
       </div>
     </div>

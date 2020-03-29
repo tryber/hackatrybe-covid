@@ -37,11 +37,11 @@ Outra prática que te ajudará é a meditação, pois ajuda no bem-estar físico
 ## Recompense-se
 
 Atribuir momentos de alegria e satisfação é parte de todo o processo. Permitir divertir e alegrar-se depois de um dia ou uma semana produtiva te fará muito bem. Eventos simples como, tomar um banho demorado, assistir um episódio de sua série favorita ou jogar uma partida com os amigos te fará muito bem. Pequenas recompensas geram grandes alegrias, reforce seus hobbies. Aprenda a arte de reconhecer o bom trabalho e de desfrutá-lo.
-`
+`;
 
 const briefing = `## HÁBITOS PARA UM BOM DESEMPENHO REMOTO
 
-Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida.`
+Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida.`;
 
 const obj = {
   title: 'Hábitos',
@@ -52,6 +52,6 @@ const obj = {
     { link: 'Gerencie bem o seu tempo', href: 'gerencie-bem-id' },
     { link: 'Ambientação local', href: 'ambiente-local-id' }
   ],
-}
+};
 
 export default obj;
