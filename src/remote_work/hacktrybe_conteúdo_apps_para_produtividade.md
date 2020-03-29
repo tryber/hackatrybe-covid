@@ -123,6 +123,6 @@ https://apps.apple.com/br/app/manual-de-redacao-academica/id598610295
 
 link: https://www.hackerrank.com/
 
->Ensinar: Essa com certeza é a forma mais completa de fixação, pois ela combina >varias outras tecnicas de estudo, como a de organização/revisão, e ensinar é >aprender de novo.
+>Ensinar: Essa com certeza é a forma mais completa de fixação, pois ela combina várias outras técnicas de estudo, como a de organização/revisão, e ensinar é aprender de novo.
 > 
 >Evitar Burnout, se dedicar tempo de mais a um único assunto ou problema*
