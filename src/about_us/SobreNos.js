@@ -6,8 +6,8 @@ import './SobreNos.css';
 function AboutUs() {
   return (
     <div className="about">
+      <span className="logo">Central de Informações<b> - COVID-19</b></span>
       <div className="background-header">
-      <span className="logo">Ajuda<b>BH</b></span>
       </div>
       {/* <Link to="/">
          <button className="close-about"></button>
@@ -43,7 +43,7 @@ function AboutUs() {
       </div>
       <div className="background-4">
         <span className="hacka-logo"><i>Hacka</i></span>
-        <img src="https://i.ibb.co/YB53DYR/TRYBE-COLOR-LIGHT-BG-1.png"></img>
+        <img className="trybe-img" src="https://i.ibb.co/YB53DYR/TRYBE-COLOR-LIGHT-BG-1.png"></img>
       </div>
     </div>
   );
