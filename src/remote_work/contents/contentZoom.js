@@ -32,7 +32,7 @@ const briefing = `## ZOOM - Uma sala de aula completa
 Se até o 1º ministro britânico utiliza, você vai querer utilizar tambem!`
 
 const obj = {
-  title: 'Zoom',// title COnteudo
+  title: 'Zoom',
   type: 'Ferramenta', // tipo conteudo(Professor, aluno, ferramenta)
   briefing, 
   content,
