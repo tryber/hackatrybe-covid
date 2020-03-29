@@ -105,7 +105,7 @@ IOS: https://apps.apple.com/br/app/pocket/id309601447
 
 link: https://www.hackerrank.com/
 
-##### Descanso: Estar descansado permite a absorção de conteúdos de maneira muito mais "organica".
+##### Descanso: Estar descansado permite a absorção de conteúdos de maneira muito mais "orgânica".
 ##### Revisão: Para contrariar a curva do esquecimento, devemos rever o que foi estudado, isso permite uma melhor fixação do conteúdo no cerébro.
 
 - Manual de Redação Acadêmica
