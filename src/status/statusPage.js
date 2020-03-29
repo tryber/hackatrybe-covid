@@ -1,7 +1,7 @@
 import React from "react";
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import { data } from "./locationData";
-import Circle from "../circle.png";
+import Circle from "./circle.png";
 
 class StatusPage extends React.Component {
   constructor(props) {
@@ -76,7 +76,7 @@ class StatusPage extends React.Component {
           initialCenter={{ lat: -15.7801, lng: -47.9292 }}
           onClick={this.onMapClicked}
           mapTypeControl={false}
-          style={{width: '100%', height: '80%'}}
+          style={{ width: "100%", height: "80%" }}
         >
           {this.state.apiData.regions.map(region => (
             <Marker
