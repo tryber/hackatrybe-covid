@@ -12,7 +12,7 @@ Ter esses momentos bem delimitados é importante para criar uma rotina. Um senso
 
 Um dos aspectos mais difíceis de lidar quando se trabalha em casa é saber delimitar o tempo de interação com a família. Deixar claro aos familiares ou amigos do convívio local, que o momento é de estudo e que precisa se dedicar é importante. É preciso estabelecer as métricas com a família no que diz respeito a estudar em casa, de modo a evitar que seus momentos de foco sejam interrompidos.
 
-## Ambientação local 
+<h2 id="ambiente-local-id">Ambientação local </h2>
 
 O processo de adaptação para um bom trabalho remoto requer acima de tudo um ambiente preparado. Para isso certifique-se que está em um local confortável, onde não será interrompido e que tenha uma boa conexão à rede. 
 
@@ -41,8 +41,7 @@ Atribuir momentos de alegria e satisfação é parte de todo o processo. Permiti
 
 const briefing = `## HÁBITOS PARA UM BOM DESEMPENHO REMOTO
 
-Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida. Para estudar e trabalhar em casa é preciso mais do que força de vontade, sendo necessário disciplina e organização, algumas das etapas que abordaremos adiante.
-`
+Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida.`
 
 const obj = {
   title: 'Hábitos',
