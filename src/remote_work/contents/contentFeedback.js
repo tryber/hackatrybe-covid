@@ -49,8 +49,8 @@ const briefing = `## ESTABELECENDO UMA CULTURA DE FEEDBACK
 Como fazer os estudantes darem feedbacks que te ajudem a melhorar sua aula.`;
 
 const obj = {
-  title: 'Falando sobre feedbacks',// title COnteudo
-  type: 'Professor', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'Falando sobre feedbacks',
+  type: 'Professor', 
   briefing, 
   content,
   nav: [
