@@ -90,7 +90,7 @@ class StatusPage extends React.Component {
         {/* {console.log(this.state.globalData.locations)} */}
           {this.state.globalData.locations.map(location => (
             <Marker
-            onClick={this.onMarkerClick}
+            // onClick={this.onMarkerClick}
             position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
             name={`${location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
             icon={{
