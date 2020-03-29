@@ -1,5 +1,4 @@
 # ZOOM
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.litmos.com%2Fpt-BR%2Fmarketplace%2Fzoom&psig=AOvVaw1D2ZRfx3yE1oELAY-ZV6Ck&ust=1585577034143000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiuofPsv-gCFQAAAAAdAAAAABAP
 
 ## Audio, Imagem e Interação em 1 só lugar
 
