@@ -67,9 +67,8 @@
     height: auto;
     margin-right: 35px;
   }
-  body {
+  .texto {
     font-size: 20px;
-    font-family: monospace;
   }
   #start {
     font-size: 1.5em;

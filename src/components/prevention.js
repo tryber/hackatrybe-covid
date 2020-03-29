@@ -39,7 +39,7 @@ class Prevention extends Component {
               <img className="img" src={cought} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p>Ao tossir ou espirrar, cubra sua boca e nariz com um pano ou papel para impedir que as secreções contaminem
+              <p className="texto">Ao tossir ou espirrar, cubra sua boca e nariz com um pano ou papel para impedir que as secreções contaminem
                 outras pessoas. Certifique que o que usou seja jogado fora (de preferência) ou esterilizado.
                 Se você não tiver algo à disposição, procure tossir ou espirrar em seu antebraço e não em suas mãos;
                 Não contenha a tosse pois apesar de ser irritante e desconfortável em alguns momentos ela é uma forma eficaz
@@ -56,7 +56,7 @@ class Prevention extends Component {
               <img className="img" src={smartphone} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p>Não compartilhar objetos - de uso pessoal como talheres, pratos, copos ou garrafas.
+              <p className="texto">Não compartilhar objetos - de uso pessoal como talheres, pratos, copos ou garrafas.
                 Muitas pessoas pensam que não há problema em dividir objetos pessoais, como um copo ou uma garrafinha de
                 água. Entretanto, vários
                 problemas de saúde podem ser desencadeados por esse simples gesto, inclusive a covid-19, como está dito
@@ -73,7 +73,7 @@ class Prevention extends Component {
               <img className="img" src={distance} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p>Manter distância mínima - Caso seja necessário frequentar ambientes fechados com agloração de pessoas é
+              <p className="texto">Manter distância mínima - Caso seja necessário frequentar ambientes fechados com agloração de pessoas é
                 importante seguir as
                 regras de afastamento social. Mantendo uma distância mínima de 2 metros entre as pessoas. Alguns
                 supermercados já estão ajudando
@@ -90,7 +90,7 @@ class Prevention extends Component {
               <img className="img" src={elbow} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p>Evitar o contato pessoal - evitar apertos de mãos, abraços ou beijos com pessoas, mesmo que assintomáticas,
+              <p className="texto">Evitar o contato pessoal - evitar apertos de mãos, abraços ou beijos com pessoas, mesmo que assintomáticas,
                 é uma medida que ajuda a
             reduzir a propagação do vírus.</p>
             </div>
@@ -105,7 +105,7 @@ class Prevention extends Component {
               <img className="img" src={window} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p>Uma boa maneira de prevenir é manter janelas abertas para garantir uma melhor ventilação dos cômodos, uma
+              <p className="texto">Uma boa maneira de prevenir é manter janelas abertas para garantir uma melhor ventilação dos cômodos, uma
                 vez que o coronavírus pode
             se espalhar com mais facilidade em ambientes fechados e com muitas pessoas.</p>
             </div>
@@ -120,7 +120,7 @@ class Prevention extends Component {
               <img className="img" src={stayHome} alt="" />
             </div>
             <div className="col-lg-8 col-sm-11 col-11 text-container">
-              <p> Isso não significa ficar 100% recluso em casa: as saídas
+              <p className="texto"> Isso não significa ficar 100% recluso em casa: as saídas
                 para ir ao mercado ou à farmácia podem ocorrer, desde que em menor frequência e seguidas de boa higiene das
                 mãos. Alguns estados já
                 determinaram a quarentena das atividades e o tráfego de pessoas. No caso de idosos ou pessoas que já tenham
