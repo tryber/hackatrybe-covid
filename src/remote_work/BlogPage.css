@@ -41,9 +41,15 @@
   color: #46A693;
 }
 
+.Blog-Page > .content-blog  h1 {
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
 .Blog-Page > .content-blog  p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.58;
   color: black;
+  margin: 30px 0 14px 10px;
 }

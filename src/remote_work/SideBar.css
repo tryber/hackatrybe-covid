@@ -1,0 +1,10 @@
+.Side-Bar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  top: 20vh;
+  position: sticky;
+  height: 60vh;
+  font-family: "Roboto", sans-serif;
+  color: #46A693;
+};
