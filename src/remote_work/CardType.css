@@ -1,0 +1,34 @@
+.Card-Type {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid grey;
+  padding: 20px 20px;
+  border-radius: .25rem;
+  width: 250px;
+}
+
+.Card-Type > h3 {
+  color: #46A693;
+  margin: 40px 0 12px;
+}
+
+.Card-Type > p {
+  margin: 0 0 20px;
+}
+
+.Card-Type > .button-card {
+  background: #46A693;
+  border: 1px solid grey;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  width: 80px;
+  color: white;
+  text-decoration: none;
+  border-radius: .25rem;
+}
+
+.Card-Type > .button-card:hover {
+  filter: brightness(90%);
+}
