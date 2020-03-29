@@ -97,7 +97,7 @@ IOS: https://apps.apple.com/br/app/pocket/id309601447
 - *PLUS, AJUDAM NA ABSORÇÃO*
 
 > Ambiente específico: Ter um cômodo da casa somente para isso.
-> Rotina: Ajuda o cérebro a entender que naquela faixa de horário ele irá trabalhar para adquirir novos conhecimentos.
+> Rotina: Ajuda o cérebro a entender que naquela faixa de horário ele vai trabalhar para adquirir novos conhecimentos.
 
 > Exercicio prévio: Alguns hormônios são liberados após exercícios, dando sensação de bem estar e disposição, tornando mais fácil se dedicar aos estudos.
 > Para isso separamos uma forma de praticar com desafios
