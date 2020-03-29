@@ -1,10 +1,9 @@
 import React from 'react';
-import './SideBar.css';
 
 function SideBar(props) {  
   const { nav } = props;
   return (
-    <div className="Side-Bar">
+    <div>
       <nav>
         <ul>
           {nav.map(({ link, href }) => (
