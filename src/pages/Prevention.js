@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Prevention from '../components/prevention'
-import Quiz from '../components/quiz'
-import QuizTitle from '../components/quizTitle'
+import { Prevention, Quiz, QuizTitle } from '../components';
 
 class PreventionPage extends Component {
 

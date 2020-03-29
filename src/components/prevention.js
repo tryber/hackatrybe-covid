@@ -6,7 +6,6 @@ import handWash from '../img/hand-wash.svg';
 import smartphone from '../img/smartphone.svg';
 import stayHome from '../img/stay-home.svg';
 import window from '../img/window.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/prevention.css';
 
 class Prevention extends Component {

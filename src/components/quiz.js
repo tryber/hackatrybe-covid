@@ -60,13 +60,13 @@ class Quiz extends Component {
   render() {
     const { questions, nQuestion, endGame, wrongAnswers, initGame } = this.state;
     if (!initGame) return (
-      <div className="container">
+      <div className="quiz_container">
         <button className="playAgain" onClick={() => this.gamestart()}>Jogar!</button>
       </div>
     )
     if (!questions.length) return <div>Loading...</div>
     if (endGame) return (
-      <div className="container">
+      <div className="quiz_container">
         {wrongAnswers.map(ans => {
           return (
             <div key={ans.question}>
@@ -80,7 +80,7 @@ class Quiz extends Component {
       </div>
     )
     return (
-      <div className="container">
+      <div className="quiz_container">
         <h2 className="question">
           {questions[nQuestion][0].question}
         </h2>

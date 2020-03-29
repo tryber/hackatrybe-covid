@@ -1,0 +1,17 @@
+.footer_wrapper {
+  padding: 60px 0;
+  background: #333333 !important;
+}
+
+.icon_link, .icon_link:hover {
+  color: white;
+}
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
