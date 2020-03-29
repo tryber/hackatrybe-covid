@@ -126,7 +126,7 @@ Foi feita uma coletânea de aplicativos e atividades para melhorar o seu foco e 
 
 const obj = {
   title: 'Hábitos',
-  type: 'Aluno', // tipo conteudo(Professor, aluno, ferramenta)
+  type: 'Aluno',
   briefing, 
   content,
   nav: [
