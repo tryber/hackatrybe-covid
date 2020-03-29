@@ -17,7 +17,7 @@ O slack usa notificações pra você não ficar de fora das novidades que chegam
 
 Iniciando o uso do Slack, preencha seu perfil pessoal com nome completo e número de telefone. É aconselhável colocar uma foto do seu rosto centralizado para facilitar a identificação. Preencha a descrição da sua ocupação com um texto objetivo que tenha clareza no campo "o que eu faço". Você também pode configurar um nome de exibição!
 
-[![N|Solid](markdown/images/perfil_slack.png)]
+[![N|Solid](./perfil_slack.png)]
 
 - Atente-se a:
 

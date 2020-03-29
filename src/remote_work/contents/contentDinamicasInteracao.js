@@ -1,5 +1,6 @@
+const content = `# DINÂMICAS DE INTERAÇÃO
 
-# Dinâmicas de Interação
+<h2 id="distancia-transacional-id">Distância transacional</h2>
 
 No contexto _remoto_, onde é limitada a capacidade de sentir as estudantes, seja pela distância estrutural ou por uma carência de respostas cognitivas; as dinâmicas de interação se tornam muito importantes para manter atenção, engajamento e entender como estão absorvendo o conteúdo apresentado.
 
@@ -26,3 +27,20 @@ Um outro fato que influência o envolvimento do estudante na aula é uma presen�
 Uma ferrameta que ajuda na interação é o Slack, uma plataforma de organização interna para grupos, como um WhatsApp para times ou corporações. Existem tanto conversas particulares quanto em grupo, sendo possível marcar pessoas, compartilhar arquivos, e há canais que podem se organizar em temas diversos.
 
 Aqui está o guia oficial: https://get.slack.help/hc/pt-br/categories/360000049043
+`;
+
+const briefing = `## DINÂMICAS DE INTERAÇÃO
+
+Autonomia aos estudantes dentro da aula.`;
+
+const obj = {
+  title: 'Interações estudantes e professores',
+  type: 'Professores', 
+  briefing, 
+  content,
+  nav: [
+    { link: 'Distância transacional', href: 'distancia-transacional-id' } 
+  ],
+}
+
+export default obj;
