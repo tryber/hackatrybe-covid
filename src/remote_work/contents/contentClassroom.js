@@ -1,4 +1,4 @@
-const content = `![Logo Google Classroom](markdown/images/classroom.png)
+const content = `![Logo Google Classroom](imgs/classroom.png)
 
 O Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. E em um momento de isolamente social como o que estamos agora pode ser um boa opção para instituições de ensino. Caso esteja sendo aplicado no lugar em que estuda aqui vão algumas dicas de como utiliza-lo bem.
 
@@ -6,7 +6,7 @@ O Google Classroom é um sistema de gerenciamento de conteúdo para escolas que 
 
 Antes de tudo é preciso saber que o Classroom está disponível tanto para iOS, quanto para Android, como também pode ser acessado através de seu computador. Sabendo disso a primeira etapa para entrar na turma é possuir uma conta Google, na sequência clicar "+" e então clicar em "Participar da turma", um texto com uma área para digitação como o da imagem abaixo será exibido, deve-se então inserir o código da turma informado pelo professor.
 
-![Input do código da turma](markdown/images/participar-turma.png)
+![Input do código da turma](imgs/participar-turma.png)
 
 Pronto, agora você já está inscrito na turma, lembre-se que é possível fazer parte de mais de uma turma. Sendo que sempre que entrar na página de curso terá acesso a três abas diferentes, _mural_, _ativades_ e _pessoas_.
 

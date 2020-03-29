@@ -1,8 +1,10 @@
-const content = `<h2 id="oque-slack-id">O que é o Slack?</h2>
+# Conhecendo e usando o Slack
+
+##### O que é o Slack?
 
 O Slack é uma plataforma para comunicação de todo tipo de organização. Muito versátil, possui canais onde discutem-se assuntos acerca de algum tema. Podemos enviar mensagens de texto e voz assim como documentos e videos. Tendo impecável organização, o Slack é um sucesso!
 
-<h2 id="porque-usar-id">Por que usar o Slack?</h2>
+##### Por que usar o Slack?
 
 Com uma interface muito bem desenvolvida é fácil usar o Slack para comunicar com a sua equipe. Como ele centraliza as mensagens, fica fácil achar aquele arquivo ou conversa antigo que você precisa no momento. Com disponibilidade mobile, você pode baixar o app para seu celular e levar todas as conversas no seu bolso!
 O slack usa notificações pra você não ficar de fora das novidades que chegam nos canais ou mensagens dirigidas somente a você. Isso aumenta muito a produtividade e a eficiência da comunicação.
@@ -11,7 +13,7 @@ O slack usa notificações pra você não ficar de fora das novidades que chegam
 
 - O Slack não tem aplicativo para Windows Phone
 
-<h2 "boas-praticas-id">Boas praticas</h2>
+## Boas praticas
 
 - Perfil pessoal:
 
@@ -34,23 +36,3 @@ Não fugir do assunto de um canal postando coisas que não pertencem ao proposit
 - Use menções:
 
 No Slack é possivel notificar alguem mencionando seu nome de exibição com um "@". Por ex: "@HugoJr"
-`
-
-const briefing = `## Conhecendo e usando o Slack
-
-O Slack é uma plataforma para comunicação de todo tipo de organização. Muito versátil, possui canais onde discutem-se assuntos acerca de algum tema. Podemos enviar mensagens de texto e voz assim como documentos e videos. Tendo impecável organização, o Slack é um sucesso!
-`
-
-const obj = {
-  title: 'Conhecendo e usando o Slack',
-  type: 'Ferramenta',
-  briefing, 
-  content,
-  nav: [
-    { link: 'O que é o Slack', href: 'oque-slack-id' }, 
-    { link: 'Por que usar o Slack?', href: 'porque-usar-id' }, 
-    { link: 'Boas praticas', href: 'boas-praticas-id' } 
-  ],
-}
-
-export default obj;

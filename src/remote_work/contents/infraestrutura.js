@@ -3,7 +3,7 @@ const content = `# Verificação de conexão e infraestrutura
 Nesta seção falaremos sobre algo que normalmente coloca medo nos educadores, que é como dar uma aula com qualidade igual, mesmo estando remotos.
 Quais equipamentos utilizar? O que é mais importante para a qualidade do ensino?
 
-<h2 id="computador-id">Computador</h2> ## Computador
+<h2 id="computador-id">Computador</h2>
 
 O seu computador é o centro da sua carreira de professor de cursos online. É o computador que irá te dar a base para criar e implementar um curso com eficiência. Um bom computador não irá travar e vai processar as informações de forma mais rápida, te ajudando nas transmissões e proporcionando aos alunos uma melhor experiência durante o período de aula.
 
@@ -58,7 +58,7 @@ const obj = {
   content,
   nav: [
     { link: 'Computador', href: 'computador-id' },
-    { link: 'Internet e Wi-Fi', href: 'internet-wifi-id' },
+    { link: 'internet-wifi-id', href: 'Internet e Wi-Fi' },
     { link: 'Camera', href: 'camera-id' },
     { link: 'Iluminação e fundo', href: 'iluminacao-id' },
     { link: 'Microfone', href: 'microfone-id' },

@@ -1,4 +1,4 @@
-const content = `![Mesa com computador e cadeira](markdown/images/first-habits.jpg)
+const content = `![Mesa com computador e cadeira](imgs/first-habits.jpg)
 
 Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida. Para estudar e trabalhar em casa, é preciso mais  do  que força de vontade, sendo necessário ter disciplina e organização, alguns dos pontos que abordaremos adiante.
 
@@ -34,7 +34,7 @@ Uma boa dica para melhorar suas noites de sono é evitar o uso de eletrônicos p
 
 Outra prática que te ajudará é a meditação, pois ajuda no bem-estar físico e emocional, reduzindo o estresse, a dor e a ansiedade. Pode ser praticada em qualquer horário do dia, preparando o seu corpo para um dia produtivo ou para uma boa noite de sono relaxante.
 
-![Mulher meditando](markdown/images/second-habits.jpg)
+![Mulher meditando](imgs/second-habits.jpg)
 
 <h2 id="recompensa-id">Recompense-se</h2>
 
