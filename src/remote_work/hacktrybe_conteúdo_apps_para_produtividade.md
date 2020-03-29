@@ -47,12 +47,9 @@ Ele é um “remédio” um pouco mais radical para quem não consegue cumprir p
 Android: Não possui.
 IOS: https://www.macupdate.com/app/mac/31289/selfcontroll
 
-- *White Noise*
+### White Noise
 
-> Procrastinadores são vítimas de fáceis de distrações.
-> Este app produz sons que abafam e mascaram sons ambientes.
-> É possível compor a sua atmosfera sonora favorita com diversas frequências.
-> O “escudo” proporcionado pelo WhiteNoise promete ser tão poderoso que é usado até para facilitar o sono.
+Procrastinadores são vítimas de fáceis de distrações. Este app produz sons que abafam e mascaram sons ambientes. É possível compor a sua atmosfera sonora favorita com diversas frequências. O “escudo” proporcionado pelo WhiteNoise promete ser tão poderoso que é usado até para facilitar o sono.
 
 Android: Não Possui.
 IOS: https://apps.apple.com/us/app/white-noise-lite/id292987597
