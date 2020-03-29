@@ -1,6 +1,4 @@
-const content = `# Conhecendo e usando o Slack
-
-<h2 id="oque-slack-id">O que é o Slack?</h2>
+const content = `<h2 id="oque-slack-id">O que é o Slack?</h2>
 
 O Slack é uma plataforma para comunicação de todo tipo de organização. Muito versátil, possui canais onde discutem-se assuntos acerca de algum tema. Podemos enviar mensagens de texto e voz assim como documentos e videos. Tendo impecável organização, o Slack é um sucesso!
 
@@ -44,7 +42,7 @@ O Slack é uma plataforma para comunicação de todo tipo de organização. Muit
 `
 
 const obj = {
-  title: 'Slack',// title COnteudo
+  title: 'Conhecendo e usando o Slack',// title COnteudo
   type: 'Ferramenta', // tipo conteudo(Professor, aluno, ferramenta)
   briefing, 
   content,

@@ -1,6 +1,4 @@
-const content = `# HÁBITOS PARA UM BOM DESEMPENHO REMOTO
-
-![Mesa com computador e cadeira](imgs/first-habits.jpg)
+const content = `![Mesa com computador e cadeira](imgs/first-habits.jpg)
 
 Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu estilo de vida. Para estudar e trabalhar em casa, é preciso mais  do  que força de vontade, sendo necessário ter disciplina e organização, alguns dos pontos que abordaremos adiante.
 
