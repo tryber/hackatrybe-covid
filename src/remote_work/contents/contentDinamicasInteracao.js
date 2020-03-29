@@ -34,8 +34,8 @@ const briefing = `## DINÂMICAS DE INTERAÇÃO
 Autonomia aos estudantes dentro da aula.`;
 
 const obj = {
-  title: 'Interações estudantes e professores',// title COnteudo
-  type: 'Professores', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'Interações estudantes e professores',
+  type: 'Professores', 
   briefing, 
   content,
   nav: [
