@@ -37,11 +37,11 @@ const obj = {
   briefing, 
   content,
   nav: [
-    { link: 'Audio, Imagem e Interação', href: 'audio-imagem-id' }, // id para navegação
-    { link: 'Momentos Compartilhados', href: 'momentos-id' }, // id para navegação
-    { link: 'Compartilhamendo de tela', href: 'compartilhamento-id' }, // id para navegação
-    { link: 'Configurando o seu Zoom', href: 'utilizando-zoom-id' }, // id para navegação
-    { link: 'Download da Plataforma', href: 'download-id' }, // id para navegação
+    { link: 'Audio, Imagem e Interação', href: 'audio-imagem-id' },
+    { link: 'Momentos Compartilhados', href: 'momentos-id' }, 
+    { link: 'Compartilhamendo de tela', href: 'compartilhamento-id' }, 
+    { link: 'Configurando o seu Zoom', href: 'utilizando-zoom-id' }, 
+    { link: 'Download da Plataforma', href: 'download-id' }, 
   ],
 }
 
