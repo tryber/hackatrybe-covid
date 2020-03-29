@@ -56,7 +56,6 @@ Procrastinadores são vítimas de fáceis de distrações. Este app produz sons 
 Android: Não Possui.
 IOS: https://apps.apple.com/us/app/white-noise-lite/id292987597
 
-
 <h2 id="finalmente-id"> Finalmente </h2>
 
 Após ter o assunto, se livrado de distrações e ter tempo dedicado somente para o estudo, vamos organizar o roteiro de estudo e tarefas.
