@@ -6,7 +6,7 @@ function ListCardsContent({ match: { params: { type } } }) {
   const contentFilter = content.filter((obj) => obj.type === type);
   return (
     <div className="List-Cards-Content">
-      {contentFilter.map((obj) => <CardsContent type={type} obj={obj} />)}
+      {contentFilter.map((obj) => <CardsContent key={obj.title} type={type} obj={obj} />)}
     </div>
   );
 }
