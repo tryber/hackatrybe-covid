@@ -29,7 +29,7 @@ Uma ferrameta que ajuda na interação é o Slack, uma plataforma de organizaç�
 Aqui está o guia oficial: https://get.slack.help/hc/pt-br/categories/360000049043
 `;
 
-const briefing = `# DINÂMICAS DE INTERAÇÃO
+const briefing = `## DINÂMICAS DE INTERAÇÃO
 
 Autonomia aos estudantes dentro da aula.`;
 
