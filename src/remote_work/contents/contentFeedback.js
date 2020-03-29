@@ -54,10 +54,10 @@ const obj = {
   briefing, 
   content,
   nav: [
-    { link: 'Mas afinal, o que é “feedback”', href: 'oque-feedback-id' }, // id para navegação
-    { link: 'Por quê feedback é importante?', href: 'porque-feedback-id' }, // id para navegação
-    { link: 'Como dar um bom Feedback?', href: 'como-dar-feedback-id' }, // id para navegação
-    { link: 'Como receber um Feedback?', href: 'como-receber-feedback-id' } // id para navegação
+    { link: 'Mas afinal, o que é “feedback”', href: 'oque-feedback-id' }, 
+    { link: 'Por quê feedback é importante?', href: 'porque-feedback-id' }, 
+    { link: 'Como dar um bom Feedback?', href: 'como-dar-feedback-id' },
+    { link: 'Como receber um Feedback?', href: 'como-receber-feedback-id' } 
   ],
 }
 
