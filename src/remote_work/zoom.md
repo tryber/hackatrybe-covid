@@ -14,12 +14,12 @@ Graças a ferramentas como o Zoom, ampliamos a sensação que estamos de fatos c
 > Talvez a melhor funcionalidade do Zoom seja o compartilhamento de tela, o que permite não só a aula com o especialista, mas também o que muitos estudantes fazem, que é se juntar para resolver problemas e estudar de forma extremamente fácil, rápida, dinâmica e produtiva. 
 É extremamente comum estudantes fazerem "live code review" de seus projetos pessoais ou da Trybe através dessa funcionalidade.
 ​
-## Utilizando o zoom
+## Utilizando o Zoom
 ​
-Agora que você já sabe algumas funcionalidades do Zoom, veremos como utilizá-lo corretamente:
+Agora que você já sabe algumas funcionalidades do Zoom, veremos como utiliza-lo corretamente:
 - Faça o cadastro na plataforma (https://zoom.us/pt-pt/freesignup.html),
-- Vá na seção **"Perfil"** e personalize o seu nome da seguinte forma **"Nome Sobrenome - Turma X"**.
-- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a clicando em **"alterar foto"**.
+- Vá na seção **"Perfil"** e personalize o seu nome da seguinte forma **"Nome Sobrenome - Turma X"**
+- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a com **"alterar foto"**.
 
 ## Download
 
