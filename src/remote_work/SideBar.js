@@ -1,13 +1,12 @@
 import React from 'react';
 
-function SideBar(props) {
-  console.log(props)
-  const { links } = props
+function SideBar(props) {  
+  const { nav } = props;
   return (
-    <div class="col-sm-3">
-      <nav id="toc" class="sticky-top" data-toggle="toc">
-        <ul class="nav navbar-nav">
-          {links.map(({ link, href }) => (
+    <div>
+      <nav>
+        <ul>
+          {nav.map(({ link, href }) => (
             <li><a href={`#${href}`}>{link}</a></li>))
           }
         </ul>
@@ -15,4 +14,5 @@ function SideBar(props) {
     </div>
   );
 }
+
 export default SideBar;
