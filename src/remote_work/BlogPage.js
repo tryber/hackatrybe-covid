@@ -1,7 +1,7 @@
 import React from 'react';
 import SideBar from './remote_work/SideBar';
 import BlogContent from './remote_work/BlogContent';
-import data from './data.js';
+import data from './contents.js';
 import './App.css';
 
 function BlogPage(props) {
