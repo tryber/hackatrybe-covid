@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Prevention from '../components/prevention'
 import Quiz from '../components/quiz'
+import QuizTitle from '../components/quizTitle'
 
 class PreventionPage extends Component {
 
@@ -8,6 +9,7 @@ class PreventionPage extends Component {
     return (
       <div>
         <Prevention />
+        <QuizTitle />
         <Quiz />
       </div>
     )
