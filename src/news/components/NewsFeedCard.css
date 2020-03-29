@@ -1,0 +1,16 @@
+.NewsFeedCard {
+  width: 20vw;
+}
+
+.NewsFeedCard .Card img {
+  width: 100%;
+}
+
+.newsFeed {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+  height: 85vh;
+  overflow: auto;
+}
+

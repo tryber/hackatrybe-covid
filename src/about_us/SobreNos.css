@@ -8,12 +8,14 @@
 
 .about-title {
 	color: white;
-  font-size: 30px;
+	font-size: 30px;
+	margin: 20 100;
 }
 
 .about-p {
 	color: white;
 }
+
 
 .about > .background-header {
 	background-color: white;
@@ -88,7 +90,7 @@
   justify-content: center;
 }
 .trybe-img {
-margin: 2em;
+	margin: 2em;
 }
 
 @media (max-width: 600px) {

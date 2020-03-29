@@ -3,13 +3,10 @@ import context from '../context/context';
 import NewsFeedCard from './NewsFeedCard';
 
 function NewsFeed() {
-
   const { isFetching } = useContext(context);
-
   if (isFetching) return "Loading...";
-
   return (
-    <div>
+    <div className="newsFeed">
       <NewsFeedCard />
     </div>
   )

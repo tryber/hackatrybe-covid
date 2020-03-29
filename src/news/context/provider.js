@@ -4,15 +4,16 @@ import GetNewsFeed from '../services/NewsFeedAPI';
 
 const NewsFeedProvider = ({ children }) => {
   const [data, setData] = useState([]);
-  const [isFetching, setIsFetching] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [isFetching, setIsFetching] = useState(false);
 
   useEffect(() => {
-    GetNewsFeed(currentPage).then((data) => {
+    if(isFetching) return 
+    setIsFetching(true);
+    GetNewsFeed(1).then((data) => {
       setData(data);
       setIsFetching(false);
     });
-  }, [currentPage]);
+  },[]);
 
   const context = {
     data,

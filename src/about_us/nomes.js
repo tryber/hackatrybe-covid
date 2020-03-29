@@ -5,7 +5,7 @@ import './nomes.css';
 
 function ListarNome(props) {
   return (
-    <>
+    <div className="ListarNome">
       <a
         className="tryber"
         href={props.pessoaLinkedin}
@@ -17,7 +17,7 @@ function ListarNome(props) {
           <span className="trybe-name">{props.nomeDaPessoa}</span>
         </div>
       </a>
-    </>
+    </div>
   );
 }
 
