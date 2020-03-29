@@ -20,14 +20,14 @@ const briefing = `## FERRAMENTAS VISUAIS
 Conhecendo as ferramentas que lhe ajudarão a enfrentar o desafio digital`;
 
 const obj = {
-  title: 'Ferramentas Visuais',// title Conteudo
-  type: 'Professor', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'Ferramentas Visuais',
+  type: 'Professor', 
   briefing, 
   content,
   nav: [
-    { link: 'Go Conqr', href: 'go-conqr-id' }, // id para navegação
-    { link: 'Draw.io', href: 'drawio-id' }, // id para navegação
-    { link: 'YouTube', href: 'youtube-id' }, // id para navegação
+    { link: 'Go Conqr', href: 'go-conqr-id' }, 
+    { link: 'Draw.io', href: 'drawio-id' }, 
+    { link: 'YouTube', href: 'youtube-id' }, 
   ],
 }
 
