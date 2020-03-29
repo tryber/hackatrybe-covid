@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NewsFeedContext from './context'
+import NewsFeedContext from './context';
 import GetNewsFeed from '../services/NewsFeedAPI';
 
 const NewsFeedProvider = ({ children }) => {
@@ -7,7 +7,9 @@ const NewsFeedProvider = ({ children }) => {
   const [isFetching, setIsFetching] = useState(true);
 
   useEffect(() => {
-    GetNewsFeed().then((data) => {
+    const api_data = GetNewsFeed();
+    console.log(data);
+    api_data.then((data) => {
       setData(data.articles);
       setIsFetching(false);
     });
@@ -23,6 +25,6 @@ const NewsFeedProvider = ({ children }) => {
       {children}
     </NewsFeedContext.Provider>
   );
-}
+};
 
 export default NewsFeedProvider;
