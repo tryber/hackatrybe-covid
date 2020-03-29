@@ -4,7 +4,7 @@ import ListCardsContent from './remote_work/ListCardsContent';
 import PageRemoteWork from './remote_work/PageRemoteWork';
 import BlogPage from './remote_work/BlogPage';
 
-function App() { 
+function App() {
   return (
     <Router>
       <Switch>
