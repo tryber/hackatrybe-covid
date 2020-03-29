@@ -1,12 +1,13 @@
 import React from 'react';
-import SideBar from './remote_work/SideBar';
-import BlogContent from './remote_work/BlogContent';
+import SideBar from './SideBar';
+import BlogContent from './BlogContent';
 import data from './contents.js';
-import './App.css';
 
 function BlogPage(props) {
   const { id } = props.match.params;
-  const blog = data.filter(({ title }) => id === title)
+  console.log(id)
+  const blog = data.find(({ title }) => id === title)
+  console.log(blog)
   const { title, content, nav} = blog;
   console.log(blog)
   return (
@@ -15,7 +16,7 @@ function BlogPage(props) {
         <h1>{title}</h1>
       </div>
       <div>
-        <div>         
+        <div>
           <SideBar nav={nav}/>
           <BlogContent content={content}/>
         </div>
