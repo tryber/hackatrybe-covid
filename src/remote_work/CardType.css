@@ -1,0 +1,38 @@
+.Card-Type {
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+  border: 1px solid grey;
+  padding: 20px 20px;
+  border-radius: .25rem;
+  width: 250px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+}
+
+.Card-Type > h3, .Card-Type > h2 {
+  color: #46A693;
+  margin: 40px 0 12px;
+  font-weight: 500;
+}
+
+.Card-Type > p {
+  margin: 0 0 20px;
+}
+
+.Card-Type > .button-card {
+  background: #46A693;
+  border: 1px solid grey;
+  box-shadow: 0 4px 4px grey;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  width: 80px;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: .25rem;
+}
+
+.Card-Type > .button-card:hover {
+  filter: brightness(90%);
+}
