@@ -38,13 +38,13 @@ O Google Classroom é uma poderosa ferramente de ensino, caso esteja sendo aplic
 `
 
 const obj = {
-  title: 'GOOGLE CLASSROOM',// title COnteudo
-  type: 'Estudante', // tipo conteudo(Professor, estudante, ferramenta)
+  title: 'GOOGLE CLASSROOM',
+  type: 'Estudante',
   briefing, 
   content,
   nav: [
-    { link: 'Entrando em uma turma', href: 'entrar-turma-id' }, // id para navegação
-    { link: 'Boas práticas', href: 'boas-praticas-id' } // id para navegação
+    { link: 'Entrando em uma turma', href: 'entrar-turma-id' },
+    { link: 'Boas práticas', href: 'boas-praticas-id' }
   ],
 }
 
