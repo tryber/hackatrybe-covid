@@ -12,13 +12,13 @@ Ter esses momentos bem delimitados é importante para criar uma rotina e um sens
 
 ## Conscientização da Família
 
-Um dos aspectos mais difíceis de lidar quando se trabalha em casa é saber delimitar o tempo de interação com a família. Deixar claro aos familiares ou amigos do convívio local que o momento é de estudo e que dedicar se é importante. É preciso estabelecer os limites com a família no que diz respeito a estudar em casa, de modo a evitar que seus momentos de foco sejam interrompidos.
+Um dos aspectos mais difíceis de lidar quando se trabalha em casa é saber delimitar o tempo de interação com a família. Deixar claro aos familiares ou amigos do convívio local que o momento é de estudo e se dedicar é importante. É preciso estabelecer limites com a família no que diz respeito a estudar em casa, de modo a evitar que seus momentos de foco sejam interrompidos.
 
 ## Ambientação local 
 
 O processo de adaptação para um bom trabalho remoto requer, acima de tudo, um ambiente preparado. Para isso certifique-se de que está em um local confortável, onde não será interrompido e que tenha uma boa conexão à internet. 
 
-É importante manter seu local de trabahlo sempre limpo e organizado. Além disso, vale ressaltar que uma boa postura é fundamental para sua produtividade. Lembre-se que esse é seu espaço exclusivo de estudo, não o misture com outras atividades. Fazendo isso seu cérebro vai entender que estar naquele ambiente significa focar em suas tarefas.
+É importante manter seu local de trabalho sempre limpo e organizado. Além disso, vale ressaltar que uma boa postura é fundamental para sua produtividade. Lembre-se que esse é seu espaço exclusivo de estudo, não o misture com outras atividades. Fazendo isso seu cérebro vai entender que estar naquele ambiente significa focar em suas tarefas.
 
 ## Mantenha o foco 
 
