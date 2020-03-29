@@ -76,20 +76,26 @@ PC: https://www.google.com/intl/pt-BR/calendar/about/
 Android: https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=pt_BR
 IOS:https://apps.apple.com/br/app/google-agenda/id909319292
 
-- *Pocket*
-> Este aplicativo permite que você salve artigos, vídeos e outros conteúdos para ver mais tarde, assim você não precisa se distrair enquanto estuda ou faz uma pesquisa na internet.
+### Pocket
+
+Este aplicativo permite que você salve artigos, vídeos e outros conteúdos para ver mais tarde, assim você não precisa se distrair enquanto estuda ou faz uma pesquisa na internet.
 
 Android: https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro&hl=pt_BR
 IOS: https://apps.apple.com/br/app/pocket/id309601447
 
-- *PLUS, AJUDAM NA ABSORÇÃO*
+## Além disso, ajuda:
 
-> Ambiente específico: Ter um cômodo da casa somente para isso.
-> Rotina: Ajuda o cérebro a entender que naquela faixa de horário ele vai trabalhar para adquirir novos conhecimentos.
+### Ambiente específico
 
-> Exercicio prévio: Alguns hormônios são liberados após exercícios, dando sensação de bem estar e disposição, tornando mais fácil se dedicar aos estudos.
-> Para isso separamos uma forma de praticar com desafios
-> É o "HackerRank" a plataforma possui uma infinidade de desafios e problemas para praticar, e o melhor, é gratuito!
+Ter um cômodo ou uma área da casa somente para os momentos de estudo e trabalho.
+
+### Rotina
+
+Ajuda o cérebro a entender que naquela faixa de horário ele vai trabalhar para adquirir novos conhecimentos.
+
+### Exercício prévio
+
+Hormônios são liberados após exercícios, dando sensação de bem estar e disposição, tornando mais fácil se dedicar aos estudos.
 
 ### Descanso
 
