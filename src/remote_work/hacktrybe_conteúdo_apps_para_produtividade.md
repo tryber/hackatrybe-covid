@@ -93,8 +93,6 @@ IOS: https://apps.apple.com/br/app/pocket/id309601447
 > Para isso separamos uma forma de praticar com desafios
 > É o "HackerRank" a plataforma possui uma infinidade de desafios e problemas para praticar, e o melhor, é gratuito!
 
-link: https://www.hackerrank.com/
-
 ### Descanso
 
 Estar descansado permite a absorção de conteúdos de maneira muito mais produtiva.
