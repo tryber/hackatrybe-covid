@@ -42,13 +42,13 @@ O Slack é uma plataforma para comunicação de todo tipo de organização. Muit
 `
 
 const obj = {
-  title: 'Conhecendo e usando o Slack',// title COnteudo
-  type: 'Ferramenta', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'Conhecendo e usando o Slack',
+  type: 'Ferramenta',
   briefing, 
   content,
   nav: [
-    { link: 'O que é o Slack', href: 'oque-slack-id' }, // id para navegação
-    { link: 'Por que usar o Slack?', href: 'porque-usar-id' }, // id para navegação
+    { link: 'O que é o Slack', href: 'oque-slack-id' }, 
+    { link: 'Por que usar o Slack?', href: 'porque-usar-id' }, 
     { link: 'Boas praticas', href: 'boas-praticas-id' } 
   ],
 }
