@@ -6,13 +6,13 @@ function NewsFeed() {
 
   return (
     <div>
-      {data.map((articles) =>
-        <div key={articles.title}>
-          <h3>{articles.title}</h3>
-          <img src={articles.urlToImage} alt={articles.title} />
-          <p>{articles.description}</p>
-          <a target="blank" href={articles.url}>Ler Notícia</a>
-          <h5>{articles.publishedAt}</h5>
+      {data.map((article) =>
+        <div key={article.title}>
+          <h3>{article.title}</h3>
+          <img src={article.urlToImage} alt={article.title} />
+          <p>{article.description}</p>
+          <a target="blank" href={article.url}>Ler Notícia</a>
+          <h5>{article.publishedAt}</h5>
         </div>
       )}
     </div>
