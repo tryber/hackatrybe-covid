@@ -9,10 +9,10 @@ function NewsFeed() {
       {data.map((article) =>
         <div key={article.title}>
           <h3>{article.title}</h3>
-          <img src={article.urlToImage} alt={article.title} />
+          <img src={article.url_to_image} alt={article.title} />
           <p>{article.description}</p>
-          <a target="blank" href={article.url}>Ler Notícia</a>
-          <h5>{article.publishedAt}</h5>
+          <a target="blank" href={article.url_to_link}>Ler Notícia</a>
+          <h5>{article.published_at}</h5>
         </div>
       )}
     </div>
