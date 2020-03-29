@@ -39,7 +39,7 @@ const obj = {
   briefing, 
   content,
   nav: [
-    { link: 'Distância transacional', href: 'distancia-transacional-id' } // id para navegação
+    { link: 'Distância transacional', href: 'distancia-transacional-id' } 
   ],
 }
 
