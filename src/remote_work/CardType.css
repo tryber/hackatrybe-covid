@@ -5,9 +5,10 @@
   border: 1px solid grey;
   padding: 20px 20px;
   border-radius: .25rem;
-  width: 250px;
+  width: 45%;
   font-family: "Roboto", sans-serif;
   margin: 10px;
+  flex-wrap: wrap;
 }
 
 .Card-Type > h3, .Card-Type > h2 {

@@ -1,13 +1,27 @@
-import infraestrutura from './contents/infraestrutura';
-import contentHabits from './contents/contentHabits';
-import contentClassroom from './contents/contentClassroom';
-import contentSlack from './contents/contentSlack';
+import classroom from './contents/contentClassroom';
+import dinamicasInteracao from './contents/contentDinamicasInteracao';
+import feedback from './contents/contentFeedback';
+import ferramentasVisuais from './contents/contentFerramentasVisuais';
+import habitosAlunos from './contents/contentHabitosAlunos';
+import habits from './contents/contentHabits';
+import infraestrutura from './contents/contentInfraestrutura';
+import produtividade from './contents/contentProdutividade';
+import slack from './contents/contentSlack';
+import slido from './contents/contentSlido';
+import zoom from './contents/contentZoom';
 
 const content = [
-  contentHabits,
-  infraestrutura,
-  contentClassroom,
-  contentSlack,
+classroom,
+dinamicasInteracao,
+feedback,
+ferramentasVisuais,
+habitosAlunos,
+habits,
+infraestrutura,
+produtividade,
+slack,
+slido,
+zoom,
 ]
 
-export default content;
+export default content; 
