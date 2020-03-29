@@ -1,11 +1,11 @@
-.Remote-Work {
+.List-Cards-Content {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   width: 100vw;
 }
 
-.Remote-Work > .header {
+.List-Cards-Content > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,22 +13,22 @@
   padding: 90px;
 }
 
-.Remote-Work > .header > h1 {
+.List-Cards-Content > .header > h1 {
   color: #46A693;
   font-size: 2.5rem;
 }
 
-.Remote-Work > .header > p {
+.List-Cards-Content > .header > p {
   font-size: 1.2rem;
   text-align: center;
 }
 
-.Remote-Work > .content > h2 {
+.List-Cards-Content > .content > h2 {
   color: white;
   font-size: 2.5rem;
 }
 
-.Remote-Work > .content {
+.List-Cards-Content > .content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +38,7 @@
   background: #46A693;
 }
 
-.Remote-Work > .content >.collection-card-type {
+.List-Cards-Content > .content >.collection-card-type {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

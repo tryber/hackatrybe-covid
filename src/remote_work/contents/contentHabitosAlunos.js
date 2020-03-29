@@ -45,7 +45,7 @@ Nesse momento de isolamento social, muitas pessoas precisarão adaptar o seu est
 
 const obj = {
   title: 'Hábitos',
-  type: 'Aluno',
+  type: 'Estudante',
   briefing,
   content,
   nav: [

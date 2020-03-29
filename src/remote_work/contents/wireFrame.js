@@ -3,8 +3,8 @@ const content = `# ADICIONE AQUI O SEU MD DO CONTEUDO COMPLETO`
 const briefing = `# ADICIONE AQUI A DESCRIÇÃO E TITLE DO CONTEUDO, h1, p `
 
 const obj = {
-  title: 'Hábitos',// title COnteudo
-  type: 'Aluno', // tipo conteudo(Professor, aluno, ferramenta)
+  title: 'Hábitos',// title Conteudo
+  type: 'Aluno', // tipo conteudo (Professor, Aluno, Ferramenta)
   briefing, 
   content,
   nav: [
