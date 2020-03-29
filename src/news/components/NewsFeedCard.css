@@ -7,9 +7,9 @@
 }
 
 .newsFeed {
-  position: absolute;
+  float: right;
   right: 0;
-  margin-right: 80px;
+  margin-right: 60px;
   height: 85vh;
   overflow: auto;
 }

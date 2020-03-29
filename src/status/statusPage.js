@@ -87,7 +87,7 @@ class StatusPage extends React.Component {
           initialCenter={{ lat: -15.7801, lng: -47.9292 }}
           onClick={this.onMapClicked}
           mapTypeControl={false}
-          style={{ width: "100%", height: "80%" }}
+          style={{ width: "75%", height: "80%" }}
         >
           {this.state.globalData.locations.map(location => (
             <Marker
