@@ -17,11 +17,15 @@ Talvez a melhor funcionalidade do Zoom seja o compartilhamento de tela, que perm
 É extremamente comum estudantes fazerem "live code review" de seus projetos pessoais ou do curso através dessa funcionalidade.
 ​
 <h2 id="utilizando-zoom-id"> Utilizando o Zoom </h2>
+
 ​
 Agora que você já sabe algumas funcionalidades do Zoom, veremos como utiliza-lo corretamente:
-- Faça o cadastro na plataforma (https://zoom.us/pt-pt/freesignup.html),
-- Vá na seção **"Perfil"** e personalize o seu nome da seguinte forma **"Nome Sobrenome - Turma X"**
-- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a com **"alterar foto"**.
+
+- Faça o cadastro na plataforma (https://zoom.us/pt-pt/freesignup.html);
+
+- Vá na seção **"Perfil"** e personalize o seu nome da seguinte forma **"Nome Sobrenome - Turma X"**;
+
+- Escolha uma boa foto de Perfil, aquela que você ta bem bonitão ou bonitona e defina-a com **"alterar foto"**;
 
 <h2 id="download-id"> Download </h2>
 
