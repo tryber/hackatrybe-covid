@@ -12,11 +12,7 @@
   height: 100vh;
 }
 
-@media(max-width: 768px) {
-  .NewsFeedCard {
-    width: 100%;
-  }
-
+@media(max-width: 770px) {
   .newsFeed {
     width: 100%;
     height: auto;
