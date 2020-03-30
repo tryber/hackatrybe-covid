@@ -17,13 +17,13 @@ Há também uma funcionalidade de pesquisas. O professor ou responsável pelo ch
 ![Sli.do interação com perguntas](imgs/second-slido.gif)
 `
 
-const briefing = `# A ferramenta Sli.do
+const briefing = `## Sli.do
 
   Ferramentas, tutorial e suas funcionalidades. `
 
 const obj = {
   title: 'A ferramenta Sli.do',
-  type: 'Estudante',
+  type: 'Estudantes',
   briefing, 
   content,
   nav: [

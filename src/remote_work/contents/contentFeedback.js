@@ -23,9 +23,11 @@ A primeira preocupação ao oferecer um bom _feedback_ é ser **construtivo**. O
 Uma boa forma é seguir os passos da **[_comunicação não-violenta_](https://papodehomem.com.br/comunicacao-nao-violenta-o-que-e-e-como-praticar/)**:
 
 1. Faça uma observação sobre o fato ocorrido;
+
 2. Diga como você se sentiu diante do fato;
+
 3. Mencione qual sua necessidade não atendida;
-4. Faça um pedido ou sugestão.
+4. Faça um pedido ou sugestão;
 	
 O _feedback_ é importante tanto para quem ensina quanto para quem aprende. Professores poderão melhorar as aulas, estudantes poderão interagir de forma mais eficiente e o relacionamento interpessoal entre os alunos poderá se beneficiar de uma cultura de _feedback_ onde o objetivo principal seja o aprendizado.
 
@@ -44,13 +46,13 @@ Uma outra forma de professores receberem _feedback_ é através de **pequenas av
 Por fim, é importante que os educadores, ao receberem os _feedbacks_, possam organizá-los e planejar **melhorias para as aulas**. Uma boa prática, neste caso, é não deixar _feedbacks_ se acumularem, tanto quanto possível. É interessante colocar as melhorias em prática de uma aula para a outra. Melhorando assim a experiência de aprendizagem para todos.
 `;
 
-const briefing = `## ESTABELECENDO UMA CULTURA DE FEEDBACK
+const briefing = `## Cultivando a cultura de feedback
 
 Como fazer os estudantes darem feedbacks que te ajudem a melhorar sua aula.`;
 
 const obj = {
   title: 'Falando sobre feedbacks',
-  type: 'Professor', 
+  type: 'Professores', 
   briefing, 
   content,
   nav: [

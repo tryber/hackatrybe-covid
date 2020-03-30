@@ -34,16 +34,29 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 40px 180px;
+  padding: 40px 10vw;
   background: #46A693;
 }
 
-.List-Cards-Content > .content > .collection-card-type {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 30px;
-  width: 80%;
-  background: #46A693;
+@media only screen and (max-width: 701px) {
+  .List-Cards-Content > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    width: 100%;
+    background: #46A693;
+  }
+
+  .List-Cards-Content > .header > p {
+    margin: 0;
+  }
+
+  .List-Cards-Content > .header {
+    padding: 90px 10px;
+  }
+
+  .List-Cards-Content > .header > h1 {
+    text-align: center;
+  }
 }

@@ -33,7 +33,7 @@ Se até o 1º ministro britânico utiliza, você vai querer utilizar tambem!`
 
 const obj = {
   title: 'Zoom',
-  type: 'Ferramenta', 
+  type: 'Ferramentas', 
   briefing, 
   content,
   nav: [

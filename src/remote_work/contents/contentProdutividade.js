@@ -119,13 +119,13 @@ https://apps.apple.com/br/app/manual-de-redacao-academica/id598610295
 E evite o Burnout! Se dedicar tempo de mais a um único assunto ou problema pode trazer exaustão. Descanse a mente também!
 `
 
-const briefing = `#Como Melhorar seu Foco e Produtividade
+const briefing = `## Como melhorar seu foco e produtividade
 
 Foi feita uma coletânea de aplicativos e atividades para melhorar o seu foco e consequentemente a sua produtividade `
 
 const obj = {
   title: 'Hábitos',
-  type: 'Aluno',
+  type: 'Estudantes',
   briefing, 
   content,
   nav: [

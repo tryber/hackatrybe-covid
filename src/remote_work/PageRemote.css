@@ -21,6 +21,7 @@
 .Remote-Work > .header > p {
   font-size: 1.2rem;
   text-align: center;
+  margin: 20px;
 }
 
 .Remote-Work > .content > h2 {
@@ -46,4 +47,31 @@
   padding: 30px;
   width: 80%;
   background: #46A693;
+}
+
+.Remote-Work p {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 701px) {
+  .Remote-Work > .content >.collection-card-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    width: 100%;
+    background: #46A693;
+  }
+
+  .Remote-Work > .header > p {
+    margin: 0;
+  }
+
+  .Remote-Work > .header {
+    padding: 90px 10px;
+  }
+
+  .Remote-Work > .header > h1 {
+    text-align: center;
+  }
 }

@@ -4,10 +4,11 @@ import './CardType.css';
 
 function CardType({ item: { type, text } }) {
   return (
-    <div className="Card-Type">
+    
+    <div className="Card-Type">      
       <h3>{type}</h3>
       <p>{text}</p>
-      <Link class="button-card" to={`/remoteWork/${type}`}>Acessar</Link>
+      <Link class="button-card" to={`/remote-work/${type}`}>Acessar</Link>
     </div>
   );
 }
