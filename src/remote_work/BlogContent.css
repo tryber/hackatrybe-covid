@@ -8,11 +8,13 @@
   text-decoration: none;
 }
 
-.Blog-Post a:hover {
+.Blog-Post h2 > a {
   color: #46A693;
-  text-decoration: none;
 }
 
+.Blog-Post a:hover {
+  color: #46A693;
+}
 
 @media only screen and (max-width: 701px) {
   .Blog-Post {

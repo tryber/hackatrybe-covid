@@ -20,6 +20,13 @@
 .Side-Bar-list {
   list-style-type: none;
   margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.Side-Bar-list:hover {
+  border-left:2px solid #46A693;
+  list-style-type: none;
+  margin-bottom: 12px;
 }
 
 .Side-Bar-list a {
@@ -28,12 +35,6 @@
   text-decoration: none;
 }
 
-.Side-Bar-list li:hover {
-  color: #46A693;
-  text-decoration: none;
-  outline: 2px solid black;
-  background: #46A693;
-}
 
 .Side-Bar-list a:hover {
   color: #46A693;
