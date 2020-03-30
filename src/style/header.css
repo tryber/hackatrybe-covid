@@ -1,4 +1,4 @@
-.header-color ul {
+.header-flex-list-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,4 +24,16 @@
 .header-color a:hover {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-flex-list-nav {
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+  }
+
+  .header-color {
+    height: 10em;
+  }
 }
