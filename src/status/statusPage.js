@@ -98,9 +98,7 @@ class StatusPage extends React.Component {
                     lat: location.coordinates.latitude,
                     lng: location.coordinates.longitude
                   }}
-                  name1={
-                    location.province ? location.province : location.country
-                  }
+                  name1={location.province || location.country}
                   name2={`Confirmados: ${location.latest.confirmed}`}
                   name3={`Mortes: ${location.latest.deaths}`}
                   name4={`Recuperados: ${location.latest.recovered}`}
@@ -111,9 +109,7 @@ class StatusPage extends React.Component {
                       height: Math.log(location.latest.confirmed + 2) * 10
                     }
                   }}
-                  title={`${
-                    location.province ? location.province : location.country
-                  }`}
+                  title={`${location.province || location.country}`}
                   opacity={0.6}
                 />
               ))}
