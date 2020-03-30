@@ -11,6 +11,16 @@
   font-family: "Roboto";
 }
 
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 6vh;
+}
+
 .row_wrapper {
   display: flex;
   justify-content: center;
