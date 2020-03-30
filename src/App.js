@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Study from './pages/Study';
-import Teach from './pages/Teach';
+import ListCardsContent from './remote_work/ListCardsContent';
+import PageRemoteWork from './remote_work/PageRemoteWork';
+import BlogPage from './remote_work/BlogPage';
 import NewsFeed from './news/components/NewsFeed';
 import PreventionPage from './pages/Prevention';
 import StatusPage from './status/statusPage'
@@ -16,10 +17,10 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={StatusPage} />
-        <Route exact path="/news" component={NewsFeed} />
-        <Route exact path="/how-to-teach" component={Teach} />
-        <Route exact path="/how-to-study" component={Study} />
         <Route path="/prevention" component={PreventionPage} />
+        <Route exact path="/remote-work/" component={PageRemoteWork} />
+        <Route exact path="/remote-work/:type" component={ListCardsContent} />
+        <Route exact path="/remote-work/:type/:id" component={BlogPage} />
         <Route path="/about-us" component={AboutUs} />
       </Switch>
       <Footer />

@@ -85,7 +85,7 @@ const participantes = {
   ],
   "Johnatas Henrique": [
     "https://www.linkedin.com/in/johnatashenrique/",
-    "https://ca.slack-edge.com/TMDDFEPFU-UPPQ6LEKB-df8024b3f24a-512"
+    "https://media-exp1.licdn.com/dms/image/C4D03AQE0HI6wfxIJyg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=S_rl29aC-zXx0bN9Jh0bsAHNxRMIoe2ZBcbXqwIbCqQ"
   ],
   "Juliana Fátima": [
     "https://www.linkedin.com/in/julianafatsil/",
