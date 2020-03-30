@@ -33,6 +33,10 @@
   flex-grow: 1;
 }
 
+.Blog-Post img {
+  width: 100%;
+}
+
 .Blog-Page > .content-blog  h1,
 .Blog-Page > .content-blog  h2,
 .Blog-Page > .content-blog  h3,
