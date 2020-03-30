@@ -1,9 +1,9 @@
 import React from "react";
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
-import NewsFeed from '../news/components/NewsFeed';
+import NewsFeed from "../news/components/NewsFeed";
 import { data } from "./locationData";
 import Circle from "./circle.png";
-import "../style/statusPage.css"
+import "../style/statusPage.css";
 
 class StatusPage extends React.Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class StatusPage extends React.Component {
     const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     fetch(
       proxyUrl +
-      `https://api.covid19tracking.narrativa.com/api/${this.generateDate()}/country/brazil`
+        `https://api.covid19tracking.narrativa.com/api/${this.generateDate()}/country/brazil`
     )
       .then(data => data.json())
       .then(res =>
@@ -89,13 +89,21 @@ class StatusPage extends React.Component {
               initialCenter={{ lat: -15.7801, lng: -47.9292 }}
               onClick={this.onMapClicked}
               mapTypeControl={false}
-              style={{ width: "100%", height: "100vh"}}
+              style={{ width: "100%", height: "100vh" }}
             >
               {this.state.globalData.locations.map(location => (
                 <Marker
                   onClick={this.onMarkerClick}
-                  position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
-                  name={`${(location.province) ? location.province : location.country} - Confirmados: ${location.latest.confirmed} - Mortes: ${location.latest.deaths} - Recuperados: ${location.latest.recovered}`}
+                  position={{
+                    lat: location.coordinates.latitude,
+                    lng: location.coordinates.longitude
+                  }}
+                  name1={
+                    location.province ? location.province : location.country
+                  }
+                  name2={`Confirmados: ${location.latest.confirmed}`}
+                  name3={`Mortes: ${location.latest.deaths}`}
+                  name4={`Recuperados: ${location.latest.recovered}`}
                   icon={{
                     url: Circle,
                     scaledSize: {
@@ -103,7 +111,9 @@ class StatusPage extends React.Component {
                       height: Math.log(location.latest.confirmed + 2) * 10
                     }
                   }}
-                  title={`${(location.province) ? location.province : location.country}`}
+                  title={`${
+                    location.province ? location.province : location.country
+                  }`}
                   opacity={0.6}
                 />
               ))}
@@ -111,7 +121,10 @@ class StatusPage extends React.Component {
                 <Marker
                   onClick={this.onMarkerClick}
                   position={this.findGeoLocation(region.name)}
-                  name={`${region.name} - Confirmados: ${region.today_confirmed} - Mortes: ${region.today_deaths} - Recuperados: ${region.today_recovered}`}
+                  name1={region.name}
+                  name2={`Confirmados: ${region.today_confirmed}`}
+                  name3={`Mortes: ${region.today_deaths}`}
+                  name4={`Recuperados: ${region.today_recovered}`}
                   icon={{
                     url: Circle,
                     scaledSize: {
@@ -128,7 +141,10 @@ class StatusPage extends React.Component {
                 visible={this.state.showingInfoWindow}
               >
                 <div>
-                  <h1>{this.state.selectedPlace.name}</h1>
+                  <h2>{this.state.selectedPlace.name1}</h2>
+                  <p>{this.state.selectedPlace.name2}</p>
+                  <p>{this.state.selectedPlace.name3}</p>
+                  <p>{this.state.selectedPlace.name4}</p>
                 </div>
               </InfoWindow>
             </Map>
