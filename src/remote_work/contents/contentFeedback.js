@@ -23,9 +23,11 @@ A primeira preocupação ao oferecer um bom _feedback_ é ser **construtivo**. O
 Uma boa forma é seguir os passos da **[_comunicação não-violenta_](https://papodehomem.com.br/comunicacao-nao-violenta-o-que-e-e-como-praticar/)**:
 
 1. Faça uma observação sobre o fato ocorrido;
+
 2. Diga como você se sentiu diante do fato;
+
 3. Mencione qual sua necessidade não atendida;
-4. Faça um pedido ou sugestão.
+4. Faça um pedido ou sugestão;
 	
 O _feedback_ é importante tanto para quem ensina quanto para quem aprende. Professores poderão melhorar as aulas, estudantes poderão interagir de forma mais eficiente e o relacionamento interpessoal entre os alunos poderá se beneficiar de uma cultura de _feedback_ onde o objetivo principal seja o aprendizado.
 
