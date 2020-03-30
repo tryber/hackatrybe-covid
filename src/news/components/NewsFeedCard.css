@@ -1,0 +1,20 @@
+.NewsFeedCard {
+  width: 100%;
+}
+
+.NewsFeedCard .Card img {
+  width: 50%;
+}
+
+.newsFeed {
+  width: 25%;
+  overflow: auto;
+  height: 100vh;
+}
+
+@media(max-width: 770px) {
+  .newsFeed {
+    width: 100%;
+    height: auto;
+  }
+}
