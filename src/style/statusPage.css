@@ -1,6 +1,4 @@
 .latest_news_wrapper {
-  height: -moz-available;
-  height: -webkit-fill-available;
   text-align: center;
   margin: 0 auto;
 }
