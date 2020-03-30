@@ -1,6 +1,8 @@
 .latest_news_wrapper {
   height: -moz-available;
   height: -webkit-fill-available;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .map_title {
@@ -12,9 +14,39 @@
 .row_wrapper {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   margin: 0;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .map_wrapper {
   margin-right: 50px;
+  width: 75%;
+  position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+  .row_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .map_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 700px;
+    align-items: center;
+  }
+
+  .row {
+    margin: 0 auto;
+  }
+  .feed-container {
+    width: 100%;
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+ }

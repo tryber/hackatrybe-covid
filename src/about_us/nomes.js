@@ -1,6 +1,5 @@
 import React from 'react';
 import nomes from './data';
-import linkedinLogo from './Group 62.svg';
 import './nomes.css';
 
 function ListarNome(props) {

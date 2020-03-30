@@ -81,15 +81,15 @@ class StatusPage extends React.Component {
     return (
       <div className="latest_news_wrapper">
         <h1 className="map_title">Covid-19 no Brasil e no Mundo</h1>
-        <div className="row_wrapper row">
-          <div className="col-sm-12 col-md-9 col-lg-9 map_wrapper">
+        <div className="row_wrapper">
+          <div className="map_wrapper">
             <Map
               google={this.props.google}
               zoom={5}
               initialCenter={{ lat: -15.7801, lng: -47.9292 }}
               onClick={this.onMapClicked}
               mapTypeControl={false}
-            // style={{ width: "100%", height: "80%" }}
+              style={{ width: "100%", height: "100vh"}}
             >
               {this.state.globalData.locations.map(location => (
                 <Marker
@@ -133,9 +133,7 @@ class StatusPage extends React.Component {
               </InfoWindow>
             </Map>
           </div>
-          <div className="col-sm-12 col-md-2 col-lg-2">
-            <NewsFeed />
-          </div>
+          <NewsFeed />
         </div>
       </div>
     );
