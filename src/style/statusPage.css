@@ -1,5 +1,20 @@
-.map_wrapper {
-  height: -moz-available;          
+.latest_news_wrapper {
+  height: -moz-available;
   height: -webkit-fill-available;
-  height: 950px;
+}
+
+.map_title {
+  text-align: center;
+  padding: 40px;
+  font-family: "Roboto";
+}
+
+.row_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.map_wrapper {
+  margin-right: 50px;
 }
