@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ListCardsContent from './remote_work/ListCardsContent';
 import PageRemoteWork from './remote_work/PageRemoteWork';
 import BlogPage from './remote_work/BlogPage';
-import News from './pages/News';
+import NewsFeed from './news/components/NewsFeed';
 import PreventionPage from './pages/Prevention';
 import StatusPage from './status/statusPage'
 import AboutUs from './about_us/SobreNos';
@@ -17,7 +17,6 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={StatusPage} />
-        <Route exact path="/news" component={News} />
         <Route path="/prevention" component={PreventionPage} />
         <Route exact path="/remote-work/" component={PageRemoteWork} />
         <Route exact path="/remote-work/:type" component={ListCardsContent} />
