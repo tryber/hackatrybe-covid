@@ -1,11 +1,24 @@
 .Blog-Post {
-  width: 80%;
-  padding: 100px 6vw 200px;
+  width: 75%;
+  padding: 100px 0 200px;
+}
+
+.Blog-Post a {
+  color: #767676;
+  text-decoration: none;
+}
+
+.Blog-Post h2 > a {
+  color: #46A693;
+}
+
+.Blog-Post a:hover {
+  color: #46A693;
 }
 
 @media only screen and (max-width: 701px) {
   .Blog-Post {
     width: 100%;
-    padding: 100px 4vw 100px;
+    padding: 100px 0 100px;
   }
 }

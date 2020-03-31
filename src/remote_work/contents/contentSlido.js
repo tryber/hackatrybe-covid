@@ -6,7 +6,7 @@ O Sli.do é uma ferramenta muito legal: ela permite formular perguntas que são 
 
 Há também uma funcionalidade de pesquisas. O professor ou responsável pelo chat cria uma pesquisa e os participantes reagem via votação, acompanhando tudo em tempo real, visualizando assim o gráfico se mexendo na tela com sua porcentagem.
 
-![Sli.do ferramenta de perguntas e pesquisa](imgs/first-slido.gif)
+![Sli.do ferramenta de perguntas e pesquisa](/assets/images/first-slido.gif)
 
 <h3 id="tutorial-slido-id">Como utilizar o Sli.do como estudante</h3>
 
@@ -14,7 +14,7 @@ Há também uma funcionalidade de pesquisas. O professor ou responsável pelo ch
 2. Insira um código para entrar na sala.
 3. Faça perguntas e interaja.
 
-![Sli.do interação com perguntas](imgs/second-slido.gif)
+![Sli.do interação com perguntas](/assets/images/second-slido.gif)
 `
 
 const briefing = `## Sli.do
