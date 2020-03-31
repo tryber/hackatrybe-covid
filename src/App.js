@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ListCardsContent from './remote_work/ListCardsContent';
 import PageRemoteWork from './remote_work/PageRemoteWork';
 import BlogPage from './remote_work/BlogPage';
-import NewsFeed from './news/components/NewsFeed';
 import PreventionPage from './pages/Prevention';
 import StatusPage from './status/statusPage'
 import AboutUs from './about_us/SobreNos';

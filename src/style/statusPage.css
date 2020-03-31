@@ -1,6 +1,4 @@
 .latest_news_wrapper {
-  height: -moz-available;
-  height: -webkit-fill-available;
   text-align: center;
   margin: 0 auto;
 }
@@ -9,6 +7,16 @@
   text-align: center;
   padding: 40px;
   font-family: "Roboto";
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 6vh;
 }
 
 .row_wrapper {
@@ -26,7 +34,7 @@
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .row_wrapper {
     display: flex;
     justify-content: center;
@@ -37,7 +45,7 @@
   .map_wrapper {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 700px;
+    margin-bottom: 102vh;
     align-items: center;
   }
 

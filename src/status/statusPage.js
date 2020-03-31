@@ -3,6 +3,7 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import NewsFeed from "../news/components/NewsFeed";
 import { data } from "./locationData";
 import Circle from "./circle.png";
+import Loading from "../components/loading";
 import "../style/statusPage.css";
 
 class StatusPage extends React.Component {
@@ -75,7 +76,12 @@ class StatusPage extends React.Component {
 
   render() {
     if (this.state.apiData === "" || this.state.globalData === "") {
-      return <div>Loading...</div>;
+      return (
+        <div className="loading-container">
+          <h1 className="map_title">Covid-19 no Brasil e no Mundo</h1>
+          <Loading />
+        </div>
+      );
     }
 
     return (
