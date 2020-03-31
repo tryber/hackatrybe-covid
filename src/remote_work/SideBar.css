@@ -1,14 +1,12 @@
 .Side-Bar {
   display: flex;
-  align-items: center;
   top: 0px;
-  position: -webkit-sticky;
   position: sticky;
   height: 50vh;
   font-family: "Roboto", sans-serif;
   color: #46A693;
-  width: 200px;
-  padding-top: 60px;
+  width: 25%;
+  padding-top: 110px;
   margin-right: 4vw;
 };
 

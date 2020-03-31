@@ -25,7 +25,7 @@ const participantes = {
   ],
   "Daniel Pantalena": [
     "https://www.linkedin.com/in/danielpantalena/",
-    "https://media-exp1.licdn.com/dms/image/C4D03AQErBzn0O6Jt_Q/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=uGPPVZocl7ynfQ-I5SDYO5K5B5A-JmQjLfiNw33MXDs"
+    "https://media-exp1.licdn.com/dms/image/C4D03AQHPGr6uVKwsEg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=BAeiz4qBwWZQ9Idi4R5i_l6rzBmU51Xo-3-wslwZ1sg"
   ],
   "Davi José": [
     "https://www.linkedin.com/in/davi-jos%C3%A9-de-padua-pinto-162537176/",
