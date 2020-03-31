@@ -17,8 +17,6 @@ O slack usa notificações pra você não ficar de fora das novidades que chegam
 
 Iniciando o uso do Slack, preencha seu perfil pessoal com nome completo e número de telefone. É aconselhável colocar uma foto do seu rosto centralizado para facilitar a identificação. Preencha a descrição da sua ocupação com um texto objetivo que tenha clareza no campo "o que eu faço". Você também pode configurar um nome de exibição!
 
-[![N|Solid](../images/perfil_slack.png)]
-
 - Atente-se a:
 
 Sempre leia as conversas que já constam nos seus canais, evite repetir questões já trabalhadas. Os canais do Slack são como grupos de pessoas que têm um objetivo em comum.
@@ -33,7 +31,7 @@ Não fugir do assunto de um canal postando coisas que não pertencem ao proposit
 
 - Use menções:
 
-No Slack é possivel notificar alguem mencionando seu nome de exibição com um "@". Por ex: "@HugoJr"
+No Slack é possível notificar alguém mencionando seu nome de exibição com um "@". Por ex: "@HugoJr"
 `
 
 const briefing = `## Slack: comunicação eficiente

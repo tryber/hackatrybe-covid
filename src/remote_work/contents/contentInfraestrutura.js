@@ -21,7 +21,7 @@ Outro ponto, é fazer o teste de velocidade, recomendamos o site _www.speedtest.
 
 Os seguintes itens são os importantes para saber se sua _Internet_ é suficiente para fazer uma boa aula ao vivo:
 
-![Image of speedtest](speedtest.png)
+![Image of speedtest](/assets/images/speedtest.png)
 
 * Velocidade de _Download_ (marcada pelo círculo azul) e de _Upload_ (marcada pelo círculo verde): Aqui o ideal é pelo menos 5Mbps, mas acima de 15Mbps você consegue fazer um vídeo em qualidade **HD** (a qualidade que vemos nos programas de TV).
 
