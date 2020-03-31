@@ -97,8 +97,9 @@ class StatusPage extends React.Component {
               mapTypeControl={false}
               style={{ width: "100%", height: "100vh" }}
             >
-              {this.state.globalData.locations.map(location => (
+              {this.state.globalData.locations.map((location, index) => (
                 <Marker
+                  key={`${location.province || location.country}${index}`}
                   onClick={this.onMarkerClick}
                   position={{
                     lat: location.coordinates.latitude,
@@ -119,8 +120,9 @@ class StatusPage extends React.Component {
                   opacity={0.6}
                 />
               ))}
-              {this.state.apiData.regions.map(region => (
+              {this.state.apiData.regions.map((region, index) => (
                 <Marker
+                  key={`${region.name}${index}`}
                   onClick={this.onMarkerClick}
                   position={this.findGeoLocation(region.name)}
                   name1={region.name}

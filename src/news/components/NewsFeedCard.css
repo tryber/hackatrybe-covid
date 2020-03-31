@@ -7,9 +7,26 @@
 }
 
 .newsFeed {
-  width: 25%;
+  width: 100%;
   overflow: auto;
-  height: 100vh;
+  height: 90vh;
+}
+
+.news-span {
+ background-color: #46A693;
+ font-size: 1.6em;
+ font-weight: 600;
+ height: 6vh;
+ margin-bottom: 1em;
+ text-align: center;
+}
+
+.newsFeed-container {
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
 }
 
 @media(max-width: 770px) {

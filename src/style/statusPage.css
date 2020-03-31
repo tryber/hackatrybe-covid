@@ -26,12 +26,14 @@
   margin: 0;
   flex-wrap: nowrap;
   width: 100%;
+  margin-bottom: 2em;
 }
 
 .map_wrapper {
   margin-right: 50px;
-  width: 75%;
+  width: 70%;
   position: relative;
+  padding-left: 2em;
 }
 
 @media only screen and (max-width: 767px) {
