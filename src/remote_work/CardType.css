@@ -56,5 +56,9 @@
   .Card-Type {
     height: 400px;
   }
+
+  .Remote-Work .Card-Type {
+    height: 240px;
+  }
 }
 
