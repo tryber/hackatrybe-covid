@@ -1,15 +1,13 @@
 .Side-Bar {
   display: flex;
-  align-items: center;
-  top: 100px;
-  position: -webkit-sticky;
+  top: 0px;
   position: sticky;
-  height: 60vh;
+  height: 50vh;
   font-family: "Roboto", sans-serif;
   color: #46A693;
-  width: 20%;
-  padding-top: 80px;
-  padding-left: 10px;
+  width: 25%;
+  padding-top: 110px;
+  margin-right: 4vw;
 };
 
 .Side-Bar nav ul {
@@ -20,32 +18,28 @@
 .Side-Bar-list {
   list-style-type: none;
   margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.Side-Bar-list:hover {
+  border-left:2px solid #46A693;
+  list-style-type: none;
+  margin-bottom: 12px;
 }
 
 .Side-Bar-list a {
   color: #767676;
-  font-size: 1.25em;
   font-weight: 700;
   text-decoration: none;
 }
+
 
 .Side-Bar-list a:hover {
   color: #46A693;
   text-decoration: none;
 }
 
-.Blog-Post a {
-  color: #767676;
-  text-decoration: none;
-}
-
-.Blog-Post a:hover {
-  color: #46A693;
-  text-decoration: none;
-}
-
-
-@media only screen and (max-width: 701px) {
+@media only screen and (max-width: 850px) {
   .Side-Bar {
     display: none;
   }
