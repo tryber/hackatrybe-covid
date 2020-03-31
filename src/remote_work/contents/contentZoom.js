@@ -17,7 +17,6 @@ Talvez a melhor funcionalidade do Zoom seja o compartilhamento de tela, que perm
 É extremamente comum estudantes fazerem "live code review" de seus projetos pessoais ou do curso através dessa funcionalidade.
 ​
 <h2 id="utilizando-zoom-id"> Utilizando o Zoom </h2>
-
 ​
 Agora que você já sabe algumas funcionalidades do Zoom, veremos como utiliza-lo corretamente:
 
