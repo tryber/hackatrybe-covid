@@ -1,93 +1,186 @@
-
-.quiz_container {
-  padding: 100px 50px;
-  margin: 20px auto;
-  background-color: white;
-  height: 600px;
-  width: 70%;
-  border-radius: 50px;
-  box-shadow: 0px 5px 15px 0px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url('../img/virus.jpg');
-  background-size: cover;
-  overflow: auto;
+@media only screen and (max-width: 770px) {
+  .gameOver {
+      font-size: 14px;
+  }
+  .quiz_container {
+      padding: auto 50px 50px;
+      margin: 20px auto;
+      background-color: white;
+      height: 600px;
+      width: 70%;
+      border-radius: 50px;
+      box-shadow: 0px 5px 15px 0px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url('../img/virus.jpg');
+      background-size: cover;
+      overflow: auto;
+  }
+  .question {
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      color: white;
+      font-weight: bolder;
+      font-size: 16px;
+  }
+  .choices {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .choice {
+      margin: 10px auto;
+      display: inline-block;
+      width: 95%;
+      text-align: center;
+      border: 2px solid;
+      background-color: rgba(0, 40, 0, 0.5);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 15px;
+      font-weight: 500;
+      font-size: 10px;
+      color: white;
+      font-weight: bolder;
+  }
+  .choice:hover {
+      background-color: rgba(0, 40, 0, 0.75);
+      border: 3px solid white;
+      font-weight: bold;
+  }
+  /* aplica margem apenas na primeira div filha de quizcontainer */
+  .quiz_container > div{ 
+    margin-top: 125px;
+    padding: 0 10px;
+  }
+  .quiz_container > div ~ div{
+    margin-top: 5px;
+  }
+  /* fim */
+  .gameOver {
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      margin-top: 15px;
+  }
+  .playAgain {
+      padding: 10px;
+      font-size: 1em;
+      font-weight: bolder;
+      word-break: break-all;
+      width: 200px;
+      border: 2px solid white;
+      text-align: center;
+      cursor: pointer;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+  }
+  .playAgain:hover {
+      border: 3px solid white;
+      color: white;
+  }
+  .green-border-quiz {
+      border: 2px solid green;
+  }
+  .red-border-quiz {
+      border: 2px solid red;
+  }
 }
 
-.question {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  color: white;
-  font-weight: bolder;
-}
-
-.choices {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.choice {
-  margin: 10px auto;
-  display: inline-block;
-  width: 95%;
-  text-align: center;
-  border: 2px solid;
-  background-color: rgba(0, 40, 0, 0.5);
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 15px;
-  font-weight: 500;
-  font-size: 1em;
-  color: white;
-  font-weight: bolder;
-}
-
-.choice:hover {
-  background-color: rgba(0, 40, 0, 0.75);
-  border: 3px solid white;
-  font-weight: bold;
-}
-
-.gameOver {
-  font-size: 1.5em;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: 25px;
-}
-
-.playAgain {
-  padding: 10px;
-  font-size: 1em;
-  font-weight: bolder;
-  word-break: break-all;
-  width: 300px;
-  border: 2px solid white;
-  text-align: center;
-  cursor: pointer;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-}
-
-.playAgain:hover {
-  border: 3px solid white;
-  color: white;
-}
-
-.green-border-quiz {
-  border: 2px solid green;
-}
-
-.red-border-quiz {
-  border: 2px solid red;
+@media only screen and (min-width: 771px) {
+  .quiz_container {
+      padding: 100px 50px;
+      margin: 20px auto;
+      background-color: white;
+      height: 600px;
+      width: 70%;
+      border-radius: 50px;
+      box-shadow: 0px 5px 15px 0px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url('../img/virus.jpg');
+      background-size: cover;
+      overflow: auto;
+  }
+  .question {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      color: white;
+      font-weight: bolder;
+  }
+  .choices {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .choice {
+      margin: 10px auto;
+      display: inline-block;
+      width: 95%;
+      text-align: center;
+      border: 2px solid;
+      background-color: rgba(0, 40, 0, 0.5);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 15px;
+      font-weight: 500;
+      font-size: 1em;
+      color: white;
+      font-weight: bolder;
+  }
+  .choice:hover {
+      background-color: rgba(0, 40, 0, 0.75);
+      border: 3px solid white;
+      font-weight: bold;
+  }
+  .gameOver {
+      font-size: 1.5em;
+      font-weight: bolder;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      margin-top: 25px;
+  }
+  .playAgain {
+      padding: 10px;
+      font-size: 1em;
+      font-weight: bolder;
+      word-break: break-all;
+      width: 300px;
+      border: 2px solid white;
+      text-align: center;
+      cursor: pointer;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+  }
+  .playAgain:hover {
+      border: 3px solid white;
+      color: white;
+  }
+  .green-border-quiz {
+      border: 2px solid green;
+  }
+  .red-border-quiz {
+      border: 2px solid red;
+  }
 }
