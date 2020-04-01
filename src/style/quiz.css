@@ -1,35 +1,17 @@
-
-.quiz_container {
-  padding: 100px 50px;
-  margin: 20px auto;
-  background-color: white;
-  height: 600px;
-  width: 70%;
-  border-radius: 50px;
-  box-shadow: 0px 5px 15px 0px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url('../img/virus.jpg');
-  background-size: cover;
-  overflow: auto;
-}
-
 .question {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
   color: white;
   font-weight: bolder;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .choices {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .choice {
@@ -44,7 +26,7 @@
   cursor: pointer;
   padding: 15px;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.75em;
   color: white;
   font-weight: bolder;
 }
@@ -66,17 +48,19 @@
 }
 
 .playAgain {
-  padding: 10px;
-  font-size: 1em;
+  font-size: 1.75em;
   font-weight: bolder;
   word-break: break-all;
-  width: 300px;
+  width: 250px;
+  height: 100px;
   border: 2px solid white;
   text-align: center;
   cursor: pointer;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+  align-self: center;
+  margin: 0 auto;
 }
 
 .playAgain:hover {
@@ -90,4 +74,60 @@
 
 .red-border-quiz {
   border: 2px solid red;
+}
+
+.quiz_container {
+  padding: 50px 2%;
+  margin: 20px auto;
+  background-color: white;
+  min-height: 800px;
+  width: 70%;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-image: url(/static/media/virus.bd37e201.jpg);
+  background-size: cover;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.feedback-response {
+  font-size: 2em;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+  margin: 50px auto;
+  width: 90%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 700px) {
+  .quiz_container {
+    width: 90%;
+  }
+
+  .feedback-response {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .quiz-container {
+    padding: 50px 2%;
+    margin: 20px auto;
+    background-color: white;
+    height: 800px;
+    width: 90%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/static/media/virus.bd37e201.jpg);
+    background-size: cover;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
 }

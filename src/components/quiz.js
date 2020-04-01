@@ -89,8 +89,8 @@ class Quiz extends Component {
     const { questions, nQuestion, } = this.state;
     return (
       <div>
-        <p>{questions[nQuestion][0].options[questions[nQuestion][0].correct - 1]}</p>
-        <p>{questions[nQuestion][0].explanation}</p>
+        <p className='feedback-response'>{questions[nQuestion][0].options[questions[nQuestion][0].correct - 1]}</p>
+        <p className='feedback-response'>{questions[nQuestion][0].explanation}</p>
       </div>
     )
   }
