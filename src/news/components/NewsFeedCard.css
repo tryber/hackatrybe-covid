@@ -52,10 +52,24 @@
 	width: 25%;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 767px) {
 	.newsFeed {
-		height: auto;
-		width: 100%;
+    width: 100%;
+    overflow: visible;
+    height: 100%;
+  }
+
+  .news-span {
+    margin: 0.4em;
+  }
+  
+  .NewsFeedCard {
+    height: 100%;
+  }
+
+  .newsFeed-container {
+    width: 100%;
+    padding: 0;
   }
   
 }

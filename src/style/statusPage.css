@@ -54,6 +54,10 @@
   padding-left: 2em;
 }
 
+.map {
+  width: 90%;
+}
+
 @media only screen and (max-width: 767px) {
   .row_wrapper {
     display: flex;
@@ -62,9 +66,22 @@
     flex-wrap: wrap;
   }
 
+  .lastest_news_header {
+    padding: 45px;
+  }
+
+  .map_title {
+    padding: 0 0.8em;
+  }
+
+  .map_title p {
+    font-size: 1.3em;
+  }
+
   .map_wrapper {
     width: 100%;
     margin: 0 auto;
+    padding: 0;
     margin-bottom: 102vh;
     align-items: center;
   }
@@ -76,5 +93,9 @@
     width: 100%;
     padding-right: 28px;
     padding-left: 28px;
+  }
+
+  .latest_news_wrapper { 
+    height: 355vh;
   }
  }
