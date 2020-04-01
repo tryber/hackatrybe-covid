@@ -12,6 +12,10 @@
   color: #46A693;
 }
 
+.Blog-Post h1 {
+  text-align: center;
+}
+
 .Blog-Post a:hover {
   color: #46A693;
 }
