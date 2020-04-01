@@ -14,8 +14,8 @@ function BlogPage(props) {
         <h1>{title}</h1>
       </div>
       <div className="content-blog">
-          <SideBar nav={nav} />
-          <BlogContent content={content} />
+        <SideBar nav={nav} />
+        <BlogContent content={content} />
       </div>
     </div>
   );
