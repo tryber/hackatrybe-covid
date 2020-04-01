@@ -1,4 +1,6 @@
-const content = `![Logo Google Classroom](/assets/images/classroom.jpg)
+const content = `<h2 id="entrar-turma-id">Como Usar o classroom</h2>
+
+![Logo Google Classroom](/assets/images/classroom.jpg)
 
 O Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos. E em um momento de isolamente social como o que estamos agora pode ser um boa opção para instituições de ensino. Caso esteja sendo aplicado no lugar em que estuda aqui vão algumas dicas de como utiliza-lo bem.
 
@@ -10,15 +12,15 @@ Antes de tudo é preciso saber que o Classroom está disponível tanto para iOS,
 
 Pronto, agora você já está inscrito na turma, lembre-se que é possível fazer parte de mais de uma turma. Sendo que sempre que entrar na página de curso terá acesso a três abas diferentes, _mural_, _ativades_ e _pessoas_.
 
-### Mural
+<h3 id="mural-id">Mural</h3>
 
 O mural é basicamente a página principal da turma, lá você poderá ver todo o conteúdo disponibilizado pelo professor e também todas as discussões feitas em ordem cronológica.
 
-### Atividades
+<h3 id="atividades-id">Atividades</h3>
 
 Essa área contém todas as atividades passadas pelo professor, através dela você poderá acessar os exercícios e trabalhos, e também as atividades corrigadas que forem devolvidas pelo professor.
 
-### Pessoas
+<h3 id="pessoas-id">Pessoas</h3>
 
 Nessa aba você encontrará todos os participantes da turma, tanto os alunos quanto o professor (ou professores).
 
@@ -44,6 +46,9 @@ const obj = {
   content,
   nav: [
     { link: 'Entrando em uma turma', href: 'entrar-turma-id' },
+    { link: 'Mural', href: 'mural-id' },
+    { link: 'Atividades', href: 'atividades-id' },
+    { link: 'Pessoas', href: 'pessoas-id' },
     { link: 'Boas práticas', href: 'boas-praticas-id' }
   ],
 }

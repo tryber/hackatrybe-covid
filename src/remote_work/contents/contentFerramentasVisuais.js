@@ -1,4 +1,4 @@
-const content = `# FERRAMENTAS VISUAIS
+const content = `# ALGUMAS FERRAMENTAS VISUAIS
 
 Sem dúvidas que as ferramentas visuais são grandes facilitadoras para educadores. Você, como docente, pode sentir muita falta de um projetor, quadro negro e giz para ministrar uma boa aula, e realmente as ferramentas visuais podem ajudar muito na transmissão de conteúdo. Apesar de não ser possível usufruir desses utensílios físicos durante uma aula virtual, existem algumas boas opções de como interagir visualmente com os estudantes, mesmo todos estando na frente do computador.
 

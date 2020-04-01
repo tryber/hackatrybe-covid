@@ -44,6 +44,8 @@
   .Card-Type {
     width: 90%;
     align-self: center;
+    height: auto;
+    min-height: 280px;
   }
 }
 
@@ -51,10 +53,6 @@
   .Card-Type > h3,
   .Card-Type > h2 {
     margin: 12px 0 12px;
-  }
-
-  .Card-Type {
-    height: 400px;
   }
 }
 

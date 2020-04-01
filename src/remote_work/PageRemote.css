@@ -36,6 +36,7 @@
   justify-content: center;
   width: 100%;
   padding: 40px 0;
+  min-height: 450px;
   background: #46A693;
 }
 
@@ -47,10 +48,6 @@
   padding: 30px;
   width: 80%;
   background: #46A693;
-}
-
-.Remote-Work p {
-  margin: 20px;
 }
 
 @media only screen and (max-width: 701px) {
