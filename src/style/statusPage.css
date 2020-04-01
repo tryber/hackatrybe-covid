@@ -3,10 +3,14 @@
   margin: 0 auto;
 }
 
-.map_title {
+.map_title p {
+  background-color: #46A693;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 1em;
   text-align: center;
-  padding: 40px;
-  font-family: "Roboto";
+  width: 100%;
 }
 
 .loading-container {
@@ -25,8 +29,22 @@
   flex-direction: row;
   margin: 0;
   flex-wrap: nowrap;
+  height: 110vh;
   width: 100%;
   margin-bottom: 2em;
+}
+
+.lastest_news_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.lastest_news_header h1 {
+  color: #46A693;
+  font-size: 2.5rem;
 }
 
 .map_wrapper {

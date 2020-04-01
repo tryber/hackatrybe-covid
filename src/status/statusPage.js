@@ -78,7 +78,9 @@ class StatusPage extends React.Component {
     if (this.state.apiData === "" || this.state.globalData === "") {
       return (
         <div className="loading-container">
-          <h1 className="map_title">Covid-19 no Brasil e no Mundo</h1>
+          <div className="lastest_news_header">
+            <h1>Últimas Informações</h1>
+          </div>
           <Loading />
         </div>
       );
@@ -86,16 +88,21 @@ class StatusPage extends React.Component {
 
     return (
       <div className="latest_news_wrapper">
-        <h1 className="map_title">Covid-19 no Brasil e no Mundo</h1>
+        <div className="lastest_news_header">
+          <h1>Últimas Informações</h1>
+        </div>
         <div className="row_wrapper">
           <div className="map_wrapper">
+            <div className="map_title">
+              <p>Mapa do Covid-19 no Brasil e no Mundo</p>
+            </div>
             <Map
               google={this.props.google}
               zoom={5}
               initialCenter={{ lat: -15.7801, lng: -47.9292 }}
               onClick={this.onMapClicked}
               mapTypeControl={false}
-              style={{ width: "100%", height: "100vh" }}
+              style={{ width: "97.5%", height: "100vh" }}
             >
               {this.state.globalData.locations.map((location, index) => (
                 <Marker
