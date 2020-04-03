@@ -13,27 +13,23 @@ class Quiz extends Component {
       wrongAnswers: [],
       initGame: false,
       isAnswered: false,
+      seeFeedback: false,
+      buttonFeedback: false,
     };
   }
 
   componentDidMount() {
     const newQuestions = [];
-    for (let i = 0; i < 4; i += 1) {
+    const numberOfQuestions = 5;
+    for (let i = 0; i < numberOfQuestions; i += 1) {
       let randomNumber = Math.floor(Math.random() * (questionsBase.length));
       newQuestions.push(questionsBase.splice(randomNumber, 1));
     }
     this.setState({ questions: newQuestions })
   }
 
-  validAnswer(i, validAnswer) {
-    const { wrongAnswers } = this.state;
-    const { questions, nQuestion } = this.state;
-    this.setState({ isAnswered: true });
-    if (i !== validAnswer - 1) {
-      const newPush = [...wrongAnswers];
-      newPush.push(questions[nQuestion][0])
-      this.setState({ wrongAnswers: newPush })
-    }
+  validAnswer() {
+    this.setState({ isAnswered: true, buttonFeedback: true });
   }
 
   restart() {
@@ -52,15 +48,84 @@ class Quiz extends Component {
   }
 
   nextQuestion() {
-    const { isAnswered, nQuestion } = this.state;
-    if (isAnswered) this.setState({ isAnswered: false, nQuestion: nQuestion + 1 })
-    if (nQuestion === 3) this.setState({endGame: true});
+    const { nQuestion, } = this.state;
+    const lastQuestion = 4
+    if (nQuestion === lastQuestion) this.setState({ endGame: true })
+    this.setState({ isAnswered: false, seeFeedback: false, nQuestion: nQuestion + 1 })
+  }
+
+  checkFeedback() {
+    const { isAnswered } = this.state;
+    if (isAnswered) this.setState({ isAnswered: false, seeFeedback: true, buttonFeedback: false })
+  }
+
+  seeFeedback() {
+    const { buttonFeedback } = this.state;
+    if (buttonFeedback) return (
+      <button
+        className="playAgain"
+        onClick={() => this.checkFeedback()}
+      >Ver Feedback!
+    </button>
+    )
+  }
+
+  nextButton() {
+    const { nQuestion } = this.state;
+    const lastQuestion = 4
+    const buttonName = nQuestion === lastQuestion ? 'Finalizar Quiz!' : 'Próxima Questão!'
+    return (
+      <button
+        className="playAgain"
+        onClick={() => this.nextQuestion()}
+      >{buttonName}
+      </button>
+    )
+  }
+
+  customButton() {
+    const { seeFeedback } = this.state;
+    return seeFeedback ? this.nextButton() : this.seeFeedback();
+  }
+
+  feedBackPage() {
+    const { questions, nQuestion, } = this.state;
+    return (
+      <div>
+        <p className='feedback-response'>{questions[nQuestion][0].options[questions[nQuestion][0].correct - 1]}</p>
+        <p className='feedback-response'>{questions[nQuestion][0].explanation}</p>
+      </div>
+    )
+  }
+
+  optionsList() {
+    const { questions, nQuestion, } = this.state;
+    return (
+      <ul className="choices">
+        {questions[nQuestion][0].options.map((q, index) =>
+          <button key={q}
+            className={`choice ${this.getAnswers(questions[nQuestion][0].correct, index)}`}
+            onClick={() => this.validAnswer(index, questions[nQuestion][0].correct)}
+          >{q}
+          </button>
+        )}
+      </ul>
+    )
+  }
+
+  renderContent() {
+    const { seeFeedback } = this.state;
+    return seeFeedback ? this.feedBackPage() : this.optionsList();
   }
 
   render() {
     const { questions, nQuestion, endGame, wrongAnswers, initGame } = this.state;
     if (!initGame) return (
       <div className="quiz_container">
+        <div>
+          <p className='init-quiz'>Será que você está sabendo as medidas de prevençao do novo Covid-19?</p>
+          <p className='init-quiz'>Responda esse quiz e descubra!</p>
+        </div>
         <button className="playAgain" onClick={() => this.gamestart()}>Jogar!</button>
       </div>
     )
@@ -80,24 +145,14 @@ class Quiz extends Component {
       </div>
     )
     return (
-      <div className="quiz_container">
-        <h2 className="question">
-          {questions[nQuestion][0].question}
-        </h2>
-        <ul className="choices">
-          {questions[nQuestion][0].options.map((q, index) =>
-            <button key={q}
-              className={`choice ${this.getAnswers(questions[nQuestion][0].correct, index)}`}
-              onClick={() => this.validAnswer(index, questions[nQuestion][0].correct)}
-            >{q}
-            </button>
-          )}
-        </ul>
-        <button
-          className="playAgain"
-          onClick={() => this.nextQuestion()}
-        >Próxima questão!
-        </button>
+      <div className="container">
+        <div className="quiz_container">
+          <h2 className="question">
+            {questions[nQuestion][0].question}
+          </h2>
+          {this.renderContent()}
+          {this.customButton()}
+        </div>
       </div>
     )
   }
