@@ -1,20 +1,77 @@
 .NewsFeedCard {
-  width: 100%;
+	width: 100%;
 }
 
 .NewsFeedCard .Card img {
-  width: 50%;
+	width: 50%;
+}
+
+.Card h4 {
+	background-color: #d1e9e4;
+}
+
+.Card {
+	border-bottom: 0.5em ridge #46A693;
+	margin: 0 1.5em 3em 2em;
+}
+
+.Card p {
+	text-align: left;
+}
+
+.Card .date {
+	font-size: 0.85em;
+}
+
+.img-description img {
+	height: 100%;
+	margin-bottom: 1em;
+	width: 100%;
 }
 
 .newsFeed {
-  width: 25%;
-  overflow: auto;
-  height: 100vh;
+	height: 100vh;
+	overflow: auto;
+	width: 100%;
 }
 
-@media(max-width: 770px) {
-  .newsFeed {
-    width: 100%;
-    height: auto;
-  }
+.news-span {
+  background-color: #46A693;
+  color: white;
+	font-size: 1.6em;
+	font-weight: 600;
+	margin-bottom: 1em;
+	text-align: center;
+	border-radius: 10px;
 }
+
+.newsFeed-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding-right: 2em;
+	width: 25%;
+}
+
+@media(max-width: 767px) {
+	.newsFeed {
+    width: 100%;
+    overflow: visible;
+    height: 100%;
+  }
+
+  .news-span {
+    margin: 0.4em;
+  }
+  
+  .NewsFeedCard {
+    height: 100%;
+  }
+
+  .newsFeed-container {
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+
