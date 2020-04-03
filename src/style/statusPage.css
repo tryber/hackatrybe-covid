@@ -11,6 +11,7 @@
   margin-bottom: 1em;
   text-align: center;
   width: 100%;
+  border-radius: 10px;
 }
 
 .loading-container {
@@ -29,7 +30,6 @@
   flex-direction: row;
   margin: 0;
   flex-wrap: nowrap;
-  height: 110vh;
   width: 100%;
   margin-bottom: 2em;
 }
@@ -40,6 +40,7 @@
   align-items: center;
   justify-content: center;
   padding: 90px;
+  height: auto;
 }
 
 .lastest_news_header h1 {
@@ -49,9 +50,9 @@
 
 .map_wrapper {
   margin-right: 50px;
-  width: 70%;
+  width: 75%;
   position: relative;
-  padding-left: 2em;
+  margin-left: 2em;
 }
 
 .map {
@@ -93,9 +94,5 @@
     width: 100%;
     padding-right: 28px;
     padding-left: 28px;
-  }
-
-  .latest_news_wrapper { 
-    height: 355vh;
   }
  }

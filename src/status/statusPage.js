@@ -74,6 +74,10 @@ class StatusPage extends React.Component {
     return { lat: currentName.latitude, lng: currentName.longitude };
   }
 
+  test(teste) {
+    console.log('alo', teste);
+  }
+
   render() {
     if (this.state.apiData === "" || this.state.globalData === "") {
       return (
@@ -102,7 +106,7 @@ class StatusPage extends React.Component {
               initialCenter={{ lat: -15.7801, lng: -47.9292 }}
               onClick={this.onMapClicked}
               mapTypeControl={false}
-              style={{ width: "97.5%", height: "100vh" }}
+              style={{ width: "100%", height: "100vh" }}
             >
               {this.state.globalData.locations.map((location, index) => (
                 <Marker
