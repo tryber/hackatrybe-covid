@@ -6,9 +6,9 @@ class PreventionPage extends Component {
   render() {
     return (
       <div>
-        <Prevention />
         <QuizTitle />
         <Quiz />
+        <Prevention />
       </div>
     )
   }

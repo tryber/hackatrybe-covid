@@ -86,7 +86,7 @@
   box-shadow: 0px 5px 15px 0px;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-image: url('../img/virus.jpg');
   background-size: cover;
   overflow: auto;
@@ -103,6 +103,16 @@
   text-align: justify;
 }
 
+.init-quiz {
+  font-size: 2em;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 700px) {
   .quiz_container {
     width: 90%;
@@ -110,6 +120,16 @@
 
   .feedback-response {
     font-size: 1.25em;
+  }
+
+  .init-quiz {
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    margin: 50px auto;
+    width: 90%;
+    text-align: justify;
   }
 }
 

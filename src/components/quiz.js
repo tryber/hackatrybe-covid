@@ -73,13 +73,13 @@ class Quiz extends Component {
   nextButton() {
     const { nQuestion } = this.state;
     const lastQuestion = 4
-    const buttonName = nQuestion === lastQuestion ? 'Finalizar Quiz!': 'Próxima Questão!'
+    const buttonName = nQuestion === lastQuestion ? 'Finalizar Quiz!' : 'Próxima Questão!'
     return (
       <button
         className="playAgain"
         onClick={() => this.nextQuestion()}
       >{buttonName}
-    </button>
+      </button>
     )
   }
 
@@ -122,6 +122,10 @@ class Quiz extends Component {
     const { questions, nQuestion, endGame, wrongAnswers, initGame } = this.state;
     if (!initGame) return (
       <div className="quiz_container">
+        <div>
+          <p className='init-quiz'>Será que você está sabendo as medidas de prevençao do novo Covid-19?</p>
+          <p className='init-quiz'>Responda esse quiz e descubra!</p>
+        </div>
         <button className="playAgain" onClick={() => this.gamestart()}>Jogar!</button>
       </div>
     )
@@ -141,12 +145,14 @@ class Quiz extends Component {
       </div>
     )
     return (
-      <div className="quiz_container">
-        <h2 className="question">
-          {questions[nQuestion][0].question}
-        </h2>
-        {this.renderContent()}
-        {this.customButton()}
+      <div className="container">
+        <div className="quiz_container">
+          <h2 className="question">
+            {questions[nQuestion][0].question}
+          </h2>
+          {this.renderContent()}
+          {this.customButton()}
+        </div>
       </div>
     )
   }
