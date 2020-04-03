@@ -91,6 +91,7 @@
   background-size: cover;
   overflow: auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .feedback-response {
