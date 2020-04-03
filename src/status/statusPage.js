@@ -74,10 +74,6 @@ class StatusPage extends React.Component {
     return { lat: currentName.latitude, lng: currentName.longitude };
   }
 
-  test(teste) {
-    console.log('alo', teste);
-  }
-
   render() {
     if (this.state.apiData === "" || this.state.globalData === "") {
       return (
