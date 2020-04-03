@@ -87,7 +87,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  background-image: url(/static/media/virus.bd37e201.jpg);
+  background-image: url('../img/virus.jpg');
   background-size: cover;
   overflow: auto;
   flex-wrap: wrap;

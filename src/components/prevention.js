@@ -12,6 +12,9 @@ class Prevention extends Component {
   render() {
     return (
       <div className="container-fluid">
+        <div className="title-prevention row justify-content-center align-items-center">
+          Fique seguro!
+        </div>
         <section className="about">
           <div className="titulo-container">
             <h2 className="title">1. Higiene das mãos</h2>

@@ -7,7 +7,7 @@ div.about {
   padding-bottom: 0px;
 }
 
-.about * {
+.about {
 	overflow-x: hidden;
 }
 

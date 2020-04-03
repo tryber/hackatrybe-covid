@@ -20,7 +20,8 @@ class Quiz extends Component {
 
   componentDidMount() {
     const newQuestions = [];
-    for (let i = 0; i < 5; i += 1) {
+    const numberOfQuestions = 5;
+    for (let i = 0; i < numberOfQuestions; i += 1) {
       let randomNumber = Math.floor(Math.random() * (questionsBase.length));
       newQuestions.push(questionsBase.splice(randomNumber, 1));
     }
@@ -48,7 +49,8 @@ class Quiz extends Component {
 
   nextQuestion() {
     const { nQuestion, } = this.state;
-    if (nQuestion === 4) this.setState({ endGame: true })
+    const lastQuestion = 4
+    if (nQuestion === lastQuestion) this.setState({ endGame: true })
     this.setState({ isAnswered: false, seeFeedback: false, nQuestion: nQuestion + 1 })
   }
 
@@ -70,7 +72,8 @@ class Quiz extends Component {
 
   nextButton() {
     const { nQuestion } = this.state;
-    const buttonName = nQuestion === 4 ? 'Finalizar Quiz!': 'Próxima Questão!'
+    const lastQuestion = 4
+    const buttonName = nQuestion === lastQuestion ? 'Finalizar Quiz!': 'Próxima Questão!'
     return (
       <button
         className="playAgain"
