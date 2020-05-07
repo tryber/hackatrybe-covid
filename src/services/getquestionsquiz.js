@@ -17,8 +17,8 @@ export const questionsBase = [
       "Todo mundo.",
       "Pessoas infectadas.",
     ],
-    correct: 4,
-    explanation: 'Pessoas sem sintomas respiratórios, como tosse, não precisam usar máscara médica. A OMS recomenda o uso de máscaras para pessoas com sintomas de COVID-19 e para aqueles que cuidam de indivíduos com sintomas, como tosse e febre. O uso de máscaras é crucial para os profissionais de saúde e as pessoas que cuidam de alguém (em casa ou em um estabelecimento de saúde). A OMS recomenda o uso racional de máscaras médicas para evitar o desperdício desnecessário de recursos preciosos.',
+    correct: 3,
+    explanation: 'A OMS recomenda o uso de máscaras por todas as pessoas.',
   }, {
     question: "Ao espirrar ou tossir repentinamente, qual o procedimento mais adequado?",
     options: [
