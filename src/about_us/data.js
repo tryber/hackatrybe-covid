@@ -141,7 +141,7 @@ const participantes = {
   ],
   "Samuel Augusto": [
     "https://www.linkedin.com/in/samuel-augusto/",
-    "/assets/images/about-us/samuel.jpg"
+    "/assets/images/about-us/Samuel.jpg"
   ],
   "Victor Felipe": [
     "https://www.linkedin.com/in/victorfrsaraiva/",
