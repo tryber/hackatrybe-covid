@@ -40,9 +40,9 @@ function AboutUs() {
         <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/caironoleto/"><img className="trybersImg" src="/assets/images/about-us/Cairo.jpg" alt="Cairo Noleto pic" /><br />Cairo Noleto</a></ul>
         <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/lucas-cassiano-ferraz-paolillo/"><img className="trybersImg" src="/assets/images/about-us/LucasCassiano.jpg" alt="Lucas Ferraz pic" /><br />Lucas Ferraz</a></ul>
         <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/matheusgoyas/"><img className="trybersImg" src="/assets/images/about-us/MatheusGoyas.jpg" alt="Matheus Goyas pic" /><br />Matheus Goyas</a></ul>
-        <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/t%C3%A1ssio-mendes-145a7366/"><img className="trybersImg" src="/assets/images/about-us/image.jpg" alt="Tássio Mendes pic" /><br />Tássio Mendes</a></ul>
+        <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/t%C3%A1ssio-mendes-145a7366/"><img className="trybersImg" src="/assets/images/about-us/TassioMendes.jpg" alt="Tássio Mendes pic" /><br />Tássio Mendes</a></ul>
         <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/tulio-starling/"><img className="trybersImg" src="/assets/images/about-us/TulioStarling.jpg" alt="Túlio Starling pic" /><br />Túlio Starling</a></ul>
-        <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/victor-caciquinho/"><img className="trybersImg" src="/assets/images/about-us/image.jpg" alt="Victor Caciquinho pic" /><br />Victor Caciquinho</a></ul>
+        <ul className="tryber"><a className="tryber" href="https://www.linkedin.com/in/victor-caciquinho/"><img className="trybersImg" src="/assets/images/about-us/Cacique.jpg" alt="Victor Caciquinho pic" /><br />Victor Caciquinho</a></ul>
       </li>
       </div>
       </div>
