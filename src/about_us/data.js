@@ -9,7 +9,7 @@ const participantes = {
   ],
   "Antonio Paolillo": [
     "https://www.linkedin.com/in/antoniopaolillo/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQFs8YDvA-lULw/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=5om0HnZIWUsFQVhJ7eaYxlwmKnnVuZrbOleqU0U2EJM"
+    "/assets/images/about-us/AntonioPaolillo.jpg"
   ],
   "Breno Mesquita": [
     "https://www.linkedin.com/in/breno-mesquita-a32571150/",
@@ -21,7 +21,7 @@ const participantes = {
   ],
   "Conrado Medeiros": [
     "https://www.linkedin.com/in/conrado-medeiros/",
-    "https://ca.slack-edge.com/TMDDFEPFU-UN6TLDEA0-ge12d1f9423f-512"
+    "/assets/images/about-us/Conrado.jpg"
   ],
   "Daniel Pantalena": [
     "https://www.linkedin.com/in/danielpantalena/",
@@ -73,11 +73,11 @@ const participantes = {
   ],
   "Henrique Eyer": [
     "https://www.linkedin.com/in/henriqueeyer/",
-    "https://ca.slack-edge.com/TMDDFEPFU-UN7D5GRC5-0e5fbea6f7c1-512"
+    "/assets/images/about-us/HenriqueEyer.jpg"
   ],
   "Henrique Rezende": [
     "https://www.linkedin.com/in/henriquerezende/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQEpx5JvhfgKGQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=Ox7AD8SeZLp0IqWplxWWyqseI157WhxCs-4anr1Z3IE"
+    "/assets/images/about-us/HenriqueRezende.jpg"
   ],
   "Hugo Joaquim": [
     "https://github.com/hugo-netuno",
@@ -85,11 +85,11 @@ const participantes = {
   ],
   "Johnatas Henrique": [
     "https://www.linkedin.com/in/johnatashenrique/",
-    "https://media-exp1.licdn.com/dms/image/C4D03AQE0HI6wfxIJyg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=S_rl29aC-zXx0bN9Jh0bsAHNxRMIoe2ZBcbXqwIbCqQ"
+    "/assets/images/about-us/Johnatas.jpg"
   ],
   "Juliana Fátima": [
     "https://www.linkedin.com/in/julianafatsil/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQGzSP8jWY89rw/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=tRBr8ZSLdG-bItVHSw6SWr4LAT0coLXbaojrVnnIx48"
+    "/assets/images/about-us/Juliana.jpg"
   ],
   "Lucas Procopio": [
     "https://www.linkedin.com/in/lucas-procopio/",
@@ -97,35 +97,35 @@ const participantes = {
   ],
   "Lucas Werner": [
     "https://www.linkedin.com/in/wernerlucas/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQFUmRZdm44xFQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=z0nIgmz9vHfL4eX2DGnXixJvjprBRkZG9YQd3yjAD6M"
+    "/assets/images/about-us/LucasWerner.jpg"
   ],
   "Luis Eduardo": [
     "https://www.linkedin.com/in/luliscarreira/",
-    "https://media-exp1.licdn.com/dms/image/C4D03AQFCaR1gNhuvbA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=4vAEzkrVp-IHDoCY8zoT8ZOkc5wbRxc4kZKifzT8DT0"
+    "/assets/images/about-us/LuisEduardo.jpg"
   ],
   "Matheus Domingos": [
     "https://www.linkedin.com/in/matheusysd/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQFED5amBLYO8Q/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=-B2zyWC-onb-KEmuI-l6BmSavrvq5wGkqEccbI4stwY"
+    "/assets/images/about-us/MatheusDomingos.jpg"
   ],
   "Orlando Messias": [
     "https://www.linkedin.com/mwlite/in/orlando-messias-a5b7644b",
-    "https://ca.slack-edge.com/TMDDFEPFU-UV6A0SGS1-792e976a201c-48"
+    "/assets/images/about-us/Orlando.jpg"
   ],
   "Pedro Henrique Tófani": [
     "https://www.linkedin.com/in/pedro-henrique-t%C3%B3fani-ferreira-110954109/",
-    "https://media-exp1.licdn.com/dms/image/C5603AQFg4MNW6WWYVA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=Iqefrf3qbYzR9n5BJEXQ3cxOakvQjrzdWdFNCDKDo0c"
+    "/assets/images/about-us/PedroHenrique.jpg"
   ],
   "Pedro Parreiras": [
     "https://www.linkedin.com/in/pedro-parreiras-03a406169/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQGC3RHEnuscFg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=EnPAs6zgIai5nqtZviVdOv-dOxr8GWq3dpq6OWbUlPQ"
+    "/assets/images/about-us/PedroParreiras.jpg"
   ],
   "Rafael Barbosa": [
     "https://www.linkedin.com/in/rafael-passos-barbosa/",
-    "https://media-exp1.licdn.com/dms/image/C4E03AQFbE1Y7K8mCDg/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=Ge-_UGtxTfFWsKY2ND7uNDxJ9WhnDvku6c8K56hpHyE"
+    "/assets/images/about-us/RafaelBarbosa.jpg"
   ],
   "Rangel Paolo": [
     "https://www.linkedin.com/in/rangelpcbomfim/",
-    "https://media-exp1.licdn.com/dms/image/C4D03AQG_SN2jnQAKfA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=qxdWTkP71cyc_PD77g-egBiR3JmhMY4oQjruXaDKVKc"
+    "/assets/images/about-us/RANGEL.jpg"
   ],
   "Renan Andreolle": [
     "https://www.linkedin.com/in/renan-andreolle-210235aa/",
