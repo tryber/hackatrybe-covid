@@ -31,12 +31,12 @@ class StatusPage extends React.Component {
         })
       );
     fetch(
-      proxyUrl + `https://coronavirus-tracker-api.herokuapp.com/v2/locations`
+      'https://covid19-brazil-api.now.sh/api/report/v1'
     )
       .then(data => data.json())
       .then(res =>
         this.setState({
-          globalData: res
+          globalData: res.data
         })
       );
   }
@@ -104,46 +104,16 @@ class StatusPage extends React.Component {
               mapTypeControl={false}
               style={{ width: "100%", height: "100vh" }}
             >
-              {this.state.globalData.locations.map((location, index) => (
+              {this.state.globalData.map(({ cases, deaths, suspects, state, uf }) => (
                 <Marker
-                  key={`${location.province || location.country}${index}`}
+                  key={uf}
                   onClick={this.onMarkerClick}
-                  position={{
-                    lat: location.coordinates.latitude,
-                    lng: location.coordinates.longitude
-                  }}
-                  name1={location.province || location.country}
-                  name2={`Confirmados: ${location.latest.confirmed}`}
-                  name3={`Mortes: ${location.latest.deaths}`}
-                  name4={`Recuperados: ${location.latest.recovered}`}
-                  icon={{
-                    url: Circle,
-                    scaledSize: {
-                      width: Math.log(location.latest.confirmed + 2) * 10,
-                      height: Math.log(location.latest.confirmed + 2) * 10
-                    }
-                  }}
-                  title={`${location.province || location.country}`}
-                  opacity={0.6}
-                />
-              ))}
-              {this.state.apiData.regions.map((region, index) => (
-                <Marker
-                  key={`${region.name}${index}`}
-                  onClick={this.onMarkerClick}
-                  position={this.findGeoLocation(region.name)}
-                  name1={region.name}
-                  name2={`Confirmados: ${region.today_confirmed}`}
-                  name3={`Mortes: ${region.today_deaths}`}
-                  name4={`Recuperados: ${region.today_recovered}`}
-                  icon={{
-                    url: Circle,
-                    scaledSize: {
-                      width: Math.log(region.today_confirmed + 1) * 15,
-                      height: Math.log(region.today_confirmed + 1) * 15
-                    }
-                  }}
-                  title={region.name}
+                  position={this.findGeoLocation(state)}
+                  name1={state}
+                  name2={`Confirmados: ${cases}`}
+                  name3={`Mortes: ${deaths}`}
+                  name4={`Suspeitos: ${suspects}`}
+                  title={`${uf}-${state}`}
                   opacity={0.6}
                 />
               ))}
